@@ -1,6 +1,9 @@
 # Awesome-Algorithm-Study
 从零构建算法核心知识地图，打通你的任督二脉~
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/JsonChao/Awesome-Android-Performance/master/screenshots/algorithm_map.png">
+</div>
 
 
 ## 目录
