@@ -1,7 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="" />
+    <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/BinarySearch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution3_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedListQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedListQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedListStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/META-INF/data_struct_study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/FileOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree/BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/BSTMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/BSTMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/LinkedListMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/LinkedListMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/LoopQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/Main3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/RBTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/RBTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/Merger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray$Merger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray$SegmentTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/SegmentTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/BSTSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/FileOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/LinkedListSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/MapSum$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/MapSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie2$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie206$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie206.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie3$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/WordDictionary$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/WordDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution4.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +142,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,19 +153,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1a96Ekxo3MeysEdcMIqUAZmpK5m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hash_table" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../coding-82" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,7 +184,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Solution3">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hash_table.Main" />
       <module name="data_struct_study" />
@@ -106,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RBTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="red_black_tree.RBTree" />
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution3" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="red_black_tree.*" />
+          <option name="PATTERN" value="array_problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RBTree" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +272,18 @@
       <updated>1586135352905</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589418512155">
@@ -165,6 +308,10 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="269" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.833@0.23.1440.833" timestamp="1594374710055" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595331386652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595331386652" />
     <state width="1388" height="296" key="GridCell.Tab.0.bottom" timestamp="1594602218369">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
@@ -208,35 +355,34 @@
     <state width="1388" height="253" key="GridCell.Tab.1.bottom" timestamp="1591319599521">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1388" height="251" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1586657106290" />
     <state width="1388" height="251" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1587433460300" />
     <state width="1388" height="251" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1587432750471" />
     <state width="1388" height="253" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1591319599521" />
     <state width="1388" height="253" key="GridCell.Tab.1.center" timestamp="1591319599520">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1388" height="251" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1586657106290" />
     <state width="1388" height="251" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1587433460300" />
     <state width="1388" height="251" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1587432750470" />
     <state width="1388" height="253" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1591319599520" />
     <state width="1388" height="253" key="GridCell.Tab.1.left" timestamp="1591319599520">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1388" height="251" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1586657106290" />
     <state width="1388" height="251" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1587433460299" />
     <state width="1388" height="251" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1587432750470" />
     <state width="1388" height="253" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1591319599520" />
     <state width="1388" height="253" key="GridCell.Tab.1.right" timestamp="1591319599521">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1388" height="251" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1586657106290" />
     <state width="1388" height="251" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1587433460300" />
     <state width="1388" height="251" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1587432750470" />
     <state width="1388" height="253" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1591319599521" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1595332833513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595332833513" />
     <state x="20" y="43" width="1400" height="788" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594460897869">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="20" y="43" width="1400" height="788" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.828@0.23.1440.828" timestamp="1586479977293" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1595080563617">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
