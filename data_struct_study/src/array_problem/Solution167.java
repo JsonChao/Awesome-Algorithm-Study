@@ -21,6 +21,27 @@ package array_problem;
  * 3、双层遍历 O(n^2)。（没有利用有序）
  * 4、循环 + 二分查找 O(nlogn)：在有序数组中寻找 target - nums[i]。
  * 5、对撞指针：使用两个索引，两个索引在中间的位置靠近。
+ *
+ * O(n ^ 2)
+ * O(1)
  */
 public class Solution167 {
+
+    public int[] twoSum(int[] numbers, int target) {
+
+        if (numbers.length < 2) {
+            throw new IllegalArgumentException("length of numbers is illegal!");
+        }
+
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = i + 1; j < numbers.length; j++) {
+                if (numbers[i] + numbers[j] == target) {
+                    int[] res = {i + 1, j + 1};
+                    return res;
+                }
+            }
+        }
+
+        throw new IllegalArgumentException("no target!");
+    }
 }

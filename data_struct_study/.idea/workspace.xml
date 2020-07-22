@@ -20,113 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/BinarySearch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution3_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution167_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution167_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution75_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedListQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedListQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/LinkedListStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/META-INF/data_struct_study.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/AVLTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/FileOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/avl/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/HashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/heap_and_priority_queue/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/BSTMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/LinkedListMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/LinkedListMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/map/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/LoopQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Solution5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/recursion/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/RBTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/red_black_tree/RBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/Merger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray$Merger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray$SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/NumArray3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/FileOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/LinkedListSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/set/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/ArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/MapSum$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/MapSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie206$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie206.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie3$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/Trie3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/WordDictionary$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/trie/WordDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/union_find/UnionFind6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution75.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

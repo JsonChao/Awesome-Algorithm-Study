@@ -21,10 +21,32 @@ package array_problem;
  *
  *  1、计数排序：分别统计0、1、2元素的个数。
  *  2、三路快排。
+ *
+ * 计数排序思路，对整个数组遍历了两遍
+ * O(n)
+ * O(K)，k为元素的取值范围
  */
 public class Solution75 {
 
     public void sortColors(int[] nums) {
 
+        // 使用一个数组统计每个值出现的频率
+        int[] count = {0, 0, 0};
+        for (int i = 0; i < nums.length; i++) {
+            assert nums[i] >= 0 && nums[i] <= 2;
+            count[nums[i]] ++;
+        }
+
+        // 拼装成 0、1、2 排序的新数组
+        int k = 0;
+        for (int i = 0; i < count[0]; i++) {
+            nums[k++] = 0;
+        }
+        for (int i = 0; i < count[1]; i++) {
+            nums[k++] = 1;
+        }
+        for (int i = 0; i < count[2]; i++) {
+            nums[k++] = 2;
+        }
     }
 }
