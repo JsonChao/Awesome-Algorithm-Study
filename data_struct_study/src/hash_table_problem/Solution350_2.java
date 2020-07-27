@@ -1,22 +1,18 @@
 package hash_table_problem;
 
-
 import java.util.ArrayList;
-import java.util.TreeMap;
+import java.util.HashMap;
 
 /**
- * 349（set）、350（map）：
- *      1、C++ 中 map find 不到元素时输出 0
- *
- * O(nlogn)
- * O(n)
+ * O(len(nums1) + len(nums2))
+ * O(len(nums1))
  */
-public class Solution350 {
+public class Solution350_2 {
 
     public int[] intersect(int[] nums1, int[] nums2) {
 
-        TreeMap<Integer, Integer> record = new TreeMap<>();
-        for(Integer item:nums1) {
+        HashMap<Integer, Integer> record = new HashMap<>();
+        for (Integer item:nums1) {
             if (!record.containsKey(item)) {
                 record.put(item, 1);
             } else {
@@ -25,7 +21,7 @@ public class Solution350 {
         }
 
         ArrayList<Integer> result = new ArrayList<>();
-        for(Integer item:nums2) {
+        for (Integer item:nums2) {
             if (record.containsKey(item) && record.get(item) > 0) {
                 result.add(item);
                 record.put(item, record.get(item) - 1);
@@ -34,7 +30,7 @@ public class Solution350 {
 
         int[] res = new int[result.size()];
         int i = 0;
-        for(Integer item:result) {
+        for (Integer item:result) {
             res[i++] = item;
         }
 

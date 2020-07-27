@@ -20,17 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution167_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution167_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution283_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution75_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution350_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution_349_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution167.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution75.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution349.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution349.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution350.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../coding-82" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -182,12 +177,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589418512155">
@@ -287,12 +283,12 @@
     <state x="20" y="43" width="1400" height="788" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594460897869">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1595080563617">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1595657343109">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="316" y="231" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1592351522745" />
     <state x="316" y="231" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1591663445722" />
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1589416272084" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1595657343109" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1595080563617" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1592871479575" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1591492528349" />
