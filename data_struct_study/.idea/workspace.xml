@@ -20,12 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution454_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution454.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution454.java" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution350_2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution_349_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution349.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution349.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution350.java" afterDir="false" />
+>>>>>>> b47a7a532dcac67b262aea4a4d03adb4d9df0222
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
