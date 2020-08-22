@@ -9,7 +9,7 @@ package dynamic_problem;
  *      动态规划将是将原问题拆解成若干个子问题，同时保存子问题的答案，
  *      使得每个子问题只求解一次，最终获得原问题的答案。
  *
- * JsonChao的动态规划核心题库：25题
+ * JsonChao的动态规划核心题库：26题
  */
 public class Main {
 
