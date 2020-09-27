@@ -123,27 +123,532 @@ O(log(n)) 与 O(n) 有着本质的差别。
           
 当反复先后调用 addLast/removeLast 进行操作时，会不断地进行 扩容/缩容，此时时间复杂度为 O（n）出现问题的原因：removeLast 时 resize 过于着急。
 解决方案：Lazy （在这里是 Lazy 缩容）等到 size == capacity / 4 时，才将 capacity 减半。
- 
+     
 
 ## 目录
 
-### [算法基础]()（已完成，待记录）
+### 一、排序算法
 
-- **《漫画算法》 （已完成，待记录）**
-
-
-### [剑指Offer题解]()（已完成，待记录）
-
-- **《剑指Offer》（已完成，待记录）**
+- 待排序的元素需要实现 Java 的 Comparable 接口，该接口有 compareTo() 方法，可以用它来判断两个元素的大小关系。
+- 使用辅助函数 less() 和 swap() 来进行比较和交换的操作，使得代码的可读性和可移植性更好。
+- 排序算法的成本模型是比较和交换的次数。
 
 
-### [Lettcode高频题解]()（进行中~）
+算法 |   稳定性 |    时间复杂度  |  空间复杂度   |  备注
+---|---|---|---|---|
+选择排序  |  ×  |  N2  | 1 |
+冒泡排序  |  √   | N2  |  1 |
+插入排序  |  √   | N ~ N2  |  1   |  时间复杂度和初始顺序有关
+希尔排序  |  ×  |  N 的若干倍乘于递增序列的长度 |    1   | 改进版插入排序
+快速排序  |  ×  |  NlogN |   logN
+三向切分快速排序  |  ×  |  N ~ NlogN  |  logN   | 适用于有大量重复主键
+归并排序  |  √  |  NlogN  |  N |
+堆排序   | ×   | NlogN  |  1  |  无法利用局部性原理 |
 
-- **LetteCode（进行中~）**
 
-- **拉钩教育之《300分钟搞定数据结构和算法》（已完成）**
--  **慕课网之[玩转算法面试，从真题到思维全面提升算法思维](https://coding.imooc.com/learn/list/82.html)三门课程视频、看得见的算法（已完成）**
--  **极客时间之《算法面试通关》（已完成）**
+快速排序是最快的通用排序算法，它的内循环的指令很少，而且它还能利用缓存，因为它总是顺序地访问数据。它的运行时间近似为 ~cNlogN，这里的 c比其它线性对数级别的排序算法都要小。
+
+使用三向切分快速排序，实际应用中可能出现的某些分布的输入能够达到线性级别，而其它排序算法仍然需要线性对数时间。
+
+Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使用三向切分的快速排序，对于引用类型使用归并排序。
+
+
+- [选择](data_struct_study/src/sort_problem/Selection.java)
+- [冒泡](data_struct_study/src/sort_problem/Bubble.java)
+- [插入](data_struct_study/src/sort_problem/Insertion.java)
+- [希尔](data_struct_study/src/sort_problem/Shell.java)
+- [快速](data_struct_study/src/sort_problem/QuickSort.java)
+- [三向切分快速](data_struct_study/src/sort_problem/ThreeWayQuickSort.java)
+- [归并](data_struct_study/src/sort_problem/MergeSort.java)
+- [堆](data_struct_study/src/sort_problem/HeapSort.java)
+
+
+### 二、数组
+
+数组最大的优点：快速查询，动态数组实现：
+
+
+- 数组最好应用于"索引有语义"的情况（但并非所有有语义的索引都适用于数组，例如身份证号码）
+- 我们需要额外处理索引有语义的情况
+- 数组的容量：capacity，数组的大小：size，初始为0
+
+- 1、实现基本功能：增删改查、各种判断方法等等
+- 2、使用 泛型 让我们的数据结构可以放置 "任何"（不可以是基本数据类型，只能是类对象，好在每一个基本类型都有一个对应的包装类，它们之间可以自动进行装箱和拆箱的操作） 的数据类型
+- 3、数组的扩容与缩容，手写时的易错点：
+         - 1、注意数组的下标
+         - 2、注意 size 与 capacity 的区别
+
+
+- [实现动态数组](data_struct_study/src/array/Array.java)
+- [二分搜索-1](data_struct_study/src/array_problem/BinarySearch.java)
+- [二分搜索-2](data_struct_study/src/array_problem/BinarySearch2.java)
+- [lengthOfLongestSubstring-1](data_struct_study/src/array_problem/Solution3.java)
+- [lengthOfLongestSubstring-2](data_struct_study/src/array_problem/Solution3_2.java)
+- [lengthOfLongestSubstring-3](data_struct_study/src/array_problem/Solution3_3.java)
+- [lengthOfLongestSubstring-4](data_struct_study/src/array_problem/Solution3_4.java)
+- [trap（接雨水）](data_struct_study/src/array_problem/Solution42.java)
+- [sortColors-1](data_struct_study/src/array_problem/Solution75.java)
+- [sortColors-2](data_struct_study/src/array_problem/Solution75_2.java)
+- [merge](data_struct_study/src/array_problem/Solution88.java)
+- [longestConsecutive](data_struct_study/src/array_problem/Solution128.java)
+- [twoSum-1](data_struct_study/src/array_problem/Solution167.java)
+- [twoSum-2](data_struct_study/src/array_problem/Solution167_2.java)
+- [twoSum-3](data_struct_study/src/array_problem/Solution167_3.java)
+- [findKthLargest](data_struct_study/src/array_problem/Solution215.java)
+- [productExceptSelf](data_struct_study/src/array_problem/Solution238.java)
+- [moveZeroes-1](data_struct_study/src/array_problem/Solution283.java)
+- [moveZeroes-2](data_struct_study/src/array_problem/Solution283_2.java)
+- [moveZeroes-3](data_struct_study/src/array_problem/Solution283_3.java)
+- [moveZeroes-4](data_struct_study/src/array_problem/Solution283_4.java)
+- [reverseVowels](data_struct_study/src/array_problem/Solution345.java)
+- [findCircleNNum](data_struct_study/src/array_problem/Solution547.java)
+- [maxAreaOfIsland](data_struct_study/src/array_problem/Solution695.java)
+
+
+### 三、队列
+
+队列的基本应用 - 广度优先遍历
+
+- [实现ArrayQueue](data_struct_study/src/queue/ArrayQueue.java)
+- [实现LoopQueue](data_struct_study/src/queue/LoopQueue.java)
+- [levelOrder](data_struct_study/src/queue_problem/Solution102.java)
+- [numSquares-1](data_struct_study/src/sort_problem/Solution279.java)
+- [numSquares-2](data_struct_study/src/sort_problem/Solution279_2.java)
+- [topKFrequent](data_struct_study/src/sort_problem/Solution347.java)
+
+
+### 四、栈
+
+栈的应用：
+
+- 1）、无处不在的撤销操作
+- 2）、系统栈的调用（操作系统）
+- 3）、括号匹配（编译器）
+
+
+- [使用动态数组实现栈](data_struct_study/src/stack/ArrayStack.java)
+- [isValid](data_struct_study/src/stack_problem/Solution20.java)
+- [inorderTraversal-1](data_struct_study/src/stack_problem/Solution94.java)
+- [inorderTraversal-2](data_struct_study/src/stack_problem/Solution94_2.java)
+- [preorderTraversal-1](data_struct_study/src/stack_problem/Solution144.java)
+- [preorderTraversal-2](data_struct_study/src/stack_problem/Solution144_2.java)
+- [postorderTraversal-1](data_struct_study/src/stack_problem/Solution145.java)
+- [postorderTraversal-2](data_struct_study/src/stack_problem/Solution145_2.java)
+- [最小值栈](data_struct_study/src/stack_problem/Solution155.java)
+
+
+### 五、链表
+
+> 链表，在节点间穿针引线。
+
+为什么链表很重要？
+
+- 不同于 动态数组、栈、队列的实现：其底层是依托静态数组，靠 resize 解决固定容量问题，
+- 链表是真正的动态数据结构，也是最简单的动态数据结构。
+- 能够帮助我们更深入地理解引用（指针）与递归。
+     
+- 优势：真正的动态，不需要处理固定容量的问题。
+- 逆势：不同于数组其底层的数据是连续分布的，链表底层的数据分布是随机的，紧靠next（pre）指针连接，因此链表相对于数组丧失了随机访问的能力。
+
+
+数组和链表的区别？
+
+- 数组最好被应用于索引有语义的情况，例如 Students[1]。最大的优势：支持动态查询。
+- 链表不能被应用于索引有语义的情况。最大的优势：动态。
+
+
+链表的时间复杂度：
+
+- 增： O(n)
+- 删： O(n)
+- 改： O(n)
+- 查： O(n)
+     
+总结：链表不适合去修改，且只适合 增、删、查 链表头的元素，此时时间复杂度为 O(1)。
+
+
+- [实现链表](data_struct_study/src/LinkedList/LinkedList.java)
+- [链表实现队列](data_struct_study/src/LinkedList/LinkedListQueue.java)
+- [链表实现栈](data_struct_study/src/LinkedList/LinkedListStack.java)
+- [removeNthFromEnd-1](data_struct_study/src/LinkedList_problem/Solution19.java)
+- [removeNthFromEnd-2](data_struct_study/src/LinkedList_problem/Solution19_2.java)
+- [mergeTwoLists](data_struct_study/src/LinkedList_problem/Solution21.java)
+- [swapPairs](data_struct_study/src/LinkedList_problem/Solution24.java)
+- [deleteDuplicates](data_struct_study/src/LinkedList_problem/Solution83.java)
+- [hasCycle](data_struct_study/src/LinkedList_problem/Solution141.java)
+- [getIntersectionNode](data_struct_study/src/LinkedList_problem/Solution160.java)
+- [removeElements](data_struct_study/src/LinkedList_problem/Solution203.java)
+- [reverseList-1](data_struct_study/src/LinkedList_problem/Solution206.java)
+- [reverseList-2](data_struct_study/src/LinkedList_problem/Solution206_2.java)
+- [deleteNode](data_struct_study/src/LinkedList_problem/Solution237.java)
+- [oddEvenList](data_struct_study/src/LinkedList_problem/Solution328.java)
+- [addTwoNumbers](data_struct_study/src/LinkedList_problem/Solution445.java)
+
+
+### 六、哈希表
+
+什么是哈希函数？
+
+哈希函数：将 "键" 转换为 "索引"，每一个 "键" 对应唯一的一个索引。
+
+- 很难保证每一个 "键" 通过哈希函数的转换对应不同的 "索引"，因此会产生哈希冲突。
+- "键" 通过哈希函数得到的 "索引" 分布越均匀越好。
+- 在哈希表（空间换时间）上操作，主要要考虑如何解决哈希冲突。
+
+哈希函数的设计
+
+通用的方法——转换为整形处理：
+
+1、小范围正整数直接使用。
+
+2、小范围负整数进行偏移。（-100~100 => 0~200）
+
+3、大整数：通常做法——取模，例如对身份证号取模后6位，即取最后6位，
+因为倒数第5、6位是表示1~31，所以会导致分布不均匀的情况。
+一个简单的解决办法就是模一个素数，例如7.
+素数取值表：http://planetmath.org/goodhashtableprimes
+
+4、浮点型：在计算机中都是32位或64位的二进制表示，只不过计算机解析成了浮点数。我们可以直接将二进制转换为整形来处理。
+     
+5、字符串：
+
+```Java
+166 = 1 * 10^2 + 6 * 10^1 + 6 * 10^0
+code = c * 26^3 + o * 26^2 + d * 26^1 + e * 26^0
+code = c * B^3 + o * B^2 + d * B^1 + e * B^0
+hash(code) = (c * B^3 + o * B^2 + d * B^1 + e * B^0) % M(素数）
+降低计算量：
+hash(code) = ((((c * B) + o) * B + d) * B) + e) % M
+避免整形溢出：
+hash(code) = ((((c % M） * B + o) % M * B + d) % M * B + e) % M
+代码形式：
+int hash = 0;
+for(int i = 0;i < s.length();i++) {
+    hash = (hash * B + s.charAt(i)) % M;
+}
+```
+
+6、复合类型：也是利用字符串的上述公式，例如 Date：year、month、day。
+     
+hash(code) = (((date.year % M) * B + date.month) % M * B + date.day) % M
+
+设计原则：
+
+- 1、一致性：如果 a == b，则 hash(a) == hash(b)
+- 2、高效性：计算高效简便
+- 3、均匀性：哈希值均匀分布
+
+Java 中 Object 的 hashCode 是根据每一个对象的地址映射成整形。
+
+哈希冲突的处理
+
+1、链地址法（Separate Chaining）：
+
+- 去掉 k1 符号：（hashCode(k1) & 0x7fffffff) % M，& 0x7fffffff 表示将 k1 最高位变为0。
+- HashMap 本质就是一个 TreeMap 数组。
+- HashSet 本质就是一个 TreeSet 数组。
+- Java8 之前，每一个位置对应一个链表，Java8 开始，当哈希冲突达到一定程度
+（平均来讲，每一个位置存储的元素树多于某一个程度了），每一个位置从链表转成红黑树。
+- HashMap 容量的选取非常重要，恰当的容量能够避免数组扩容和尽量减少 hash 冲突。
+     
+    
+算法复杂度分析：
+
+总共有 M 个地址，如果放入哈希表的元素为 N。
+
+- 如果地址是链表：O(N/M)
+- 如果地址是平衡树：O(log(N/M))
+         
+为了实现均摊复杂度 O(1)，需要对哈希表进行动态空间处理，即
+
+- 1、平均每个地址承载的元素多过一定程度，即扩容 N/M >= upperTol
+- 2、平均每个地址承载的元素少过一定程度，即缩容 N/M < lowerTol
+- 3、对于哈希表来说，元素树从 N 增加到 upperTol * N，地址空间翻倍
+- 4、每个操作在 O(LOWER_TOL)~O(UPPER_TOL) => O(1)
+
+
+更复杂的动态空间处理方法
+
+扩容 M -> 2 * M => 不是素数
+
+解决方案：使用素数取值表中的值：http://planetmath.org/goodhashtableprimes
+
+
+哈希表相比 AVL、红黑树 而言，牺牲了顺序性，换来了更好的性能。
+
+
+集合、映射：
+
+- 1、有序集合（TreeSet）、有序映射（TreeMap）：平衡树。
+- 2、无序集合（HashSet）、无序映射（HashMap）：哈希表。
+
+
+更多的哈希冲突处理方法：
+
+1、开发地址法（线性探测法）：对于开放地址法来说，每一个地址就是直接存元素，
+     即每一个地址都对所有的元素是开放的。如果有冲突，直接存到当前索引的下一个索引对应的位置，
+     如果位置还被占用，继续往下寻找即可。
+     (平方探测法)： +1、+4、+9、+16。
+     (二次哈希法)：使用另外一个 hash 算法来计算出下一个位置要去哪儿，hash2(key)。
+     负载率（LoaderFactory）：元素占总容量比，超过它就需要进行扩容，
+     一般选取为50%，选取合适时间复杂度可以到达 O(1)。
+
+2、再哈希法（Rehashing）：使用另外一个 hash 算法来计算出下一个位置要去哪儿。
+     
+3、Coalesced Hashing：综合了 Separate Chaining 和 Open Addressing。
+
+
+两类查找问题：
+
+- 1、查找有无：元素 a 是否存在？set；集合。
+- 2、查找对应关系（键值对应）：元素 a 出现了几次？map；字典。
+
+
+常见操作：
+
+- 1、insert
+- 2、find
+- 3、erase
+- 4、change（map）
+
+
+- [实现哈希表](data_struct_study/src/hash_table/HashTable.java)
+- [firstUniqChar](data_struct_study/src/hash_table/Solution1.java)
+- [twoSum-1](data_struct_study/src/hash_table_problem/Solution1.java)
+- [twoSum-2](data_struct_study/src/hash_table_problem/Solution1_2.java)
+- [isIsomorphic](data_struct_study/src/hash_table_problem/Solution205.java)
+- [containsDuplicate](data_struct_study/src/hash_table_problem/Solution217.java)
+- [containsNearbyDuplicate](data_struct_study/src/hash_table_problem/Solution219.java)
+- [containsNearbyAlmostDuplicate](data_struct_study/src/hash_table_problem/Solution220.java)
+- [isAnagram](data_struct_study/src/hash_table_problem/Solution242.java)
+- [intersection-1](data_struct_study/src/hash_table_problem/Solution349.java)
+- [intersection-2](data_struct_study/src/hash_table_problem/Solution_349_2.java)
+- [intersect-1](data_struct_study/src/hash_table_problem/Solution350.java)
+- [intersect-2](data_struct_study/src/hash_table_problem/Solution350_2.java)
+- [numberOfBoomerangs](data_struct_study/src/hash_table_problem/Solution447.java)
+- [frequencySort](data_struct_study/src/hash_table_problem/Solution451.java)
+- [fourSumCount-1](data_struct_study/src/hash_table_problem/Solution454.java)
+- [fourSumCount-2](data_struct_study/src/hash_table_problem/Solution454_2.java)
+
+
+### 七、（二分搜索）树
+
+树结构本身是一种天然的的组织结构，用树存储数据能更加高效地搜索。
+
+二叉树：和链表一样，动态数据结构。二叉树天然的递归结构，空也是一颗二叉树。
+
+- 1）、对于每一个节点，最多能分成2个节点，即左孩子和右孩子。
+- 2）、没有孩子的节点称为叶子节点。
+- 3）、每一个孩子节点最多只能有一个父亲节点。
+- 4）、二叉树具有天然的递归结构，即每个节点的左右子树都是二叉树。
+
+
+注意：一个节点也是二叉树、空也是二叉树。
+
+满二叉树：除了叶子节点外，每个节点都有两个子节点。
+
+二分搜索树：
+
+- 1）、二分搜索树是一个二叉树，且其每一颗子树也是二分搜索树。
+- 2）、二分搜索树的每个节点的值大于其左子树的所有节点的值，小于其右子树的所有节点的值。
+- 3）、存储的元素必须有可比较性。
+- 4）、通常来说，二分搜索树不包含重复元素。如果想包含重复元素的话，只需定义：
+    左子树小于等于节点；或者右子树大于等于节点。注意：数组和链表可以有重复元素。
+
+
+什么是遍历操作？
+
+- 1）、遍历就是把所有的节点都访问一遍。
+- 2）、访问的原因和业务相关。
+- 3）、在线性结构下，遍历是极其容易的，但是在树结构中，遍历会稍微有点难度。
+
+
+如何对二叉树进行遍历？
+
+对于遍历操作，两颗子树都要顾及。
+    
+- 前序遍历：最自然和常用的遍历方式。规律：根左右
+- 中序遍历：规律：左根右
+- 后序遍历：中序遍历的结果就是我们在二叉搜索树中所有数据排序后的结果。规律：左右根。应用：为二分搜索树释放内存。
+
+
+心算出二叉搜索树的前中后序遍历：每一个二叉树都会被访问三次，从根节点出发，
+
+- 前序遍历：当一个节点被访问第一次就记录它。
+- 中序遍历：当一个节点被访问第二次的时候记录它。
+- 后序遍历：当一个节点被访问第三次的时候才记录它。
+
+
+前序遍历的非递归实现（深度优先遍历）：需要使用栈记录下一步被访问的元素。
+
+对于二叉搜索树的非递归实现一般有两种写法：
+
+- 1）、经典教科书写法。
+- 2）、完全模拟系统调用栈的写法。
+
+
+层序遍历（广度优先遍历）：需要使用队列记录当前出队元素的左右子节点。
+
+广度优先遍历的意义：
+
+- 1）、在于快速地查询要搜索的元素。
+- 2）、更快地找到问题的解。
+- 3）、常用于算法设计中——无权图最短路径。
+- 4）、联想对比图的深度优先遍历与广度优先遍历。
+
+
+从二分搜索树中删除最小值与最大值：往左走的最后一个节点即是存有最小值的节点，往右走的最后一个节点即是存有最大值的节点。
+
+删除二分搜索树种的任意元素：
+
+- 1）、删除只有左孩子的节点。
+- 2）、删除只有右孩子的节点。
+- 3）、删除具有左右孩子的节点：
+
+
+1、找到 s = min(d->right),
+s 是 d 的后继(successor)节点，也即 d 的右子树中的最小节点。
+s->right = delMin(d->right),
+s->left = d->left,
+删除 d，s 是新的子树的根。
+
+2、找到 p = max(d->left),
+p 是 d 的前驱(predecessor)节点。
+
+
+如何高效实现 rank（E 是排名第几的元素）？
+如何高效实现 select（查找排名第10的元素）？
+
+最好的方式是实现一个维护 size 的二分搜索树：给 Node 节点添加新的成员变量 size。
+
+
+- [实现二分搜索树](data_struct_study/src/binary_search_tree/BST.java)
+- [实现 AVL 树](data_struct_study/src/avl/AVLTree.java)
+- [实现红黑树](data_struct_study/src/red_black_tree/RBTree.java)
+- [实现分段树](data_struct_study/src/segment_tree/SegmentTree.java)
+- [实现前缀树](data_struct_study/src/trie)
+- [实现并查集](data_struct_study/src/union_find)
+- [isSymmetric](data_struct_study/src/sort_problem/Solution101.java)
+- [maxDepth](data_struct_study/src/sort_problem/Solution104.java)
+- [sortedArrayToBST](data_struct_study/src/sort_problem/Solution108.java)
+- [isBalanced](data_struct_study/src/sort_problem/Solution110.java)
+- [minDepth](data_struct_study/src/sort_problem/Solution111.java)
+- [hasPathSum](data_struct_study/src/sort_problem/Solution112.java)
+- [rob](data_struct_study/src/sort_problem/Solution198_8.java)
+- [invertTree](data_struct_study/src/sort_problem/Solution226.java)
+- [kthSmallest](data_struct_study/src/sort_problem/Solution230.java)
+- [lowestCommonAncestor-1](data_struct_study/src/sort_problem/Solution235.java)
+- [lowestCommonAncestor-2](data_struct_study/src/sort_problem/Solution236.java)
+- [binaryTreePaths](data_struct_study/src/sort_problem/Solution257.java)
+- [sumOfLeftLeaves](data_struct_study/src/sort_problem/Solution404.java)
+- [pathSum](data_struct_study/src/sort_problem/Solution437.java)
+
+
+### 八、映射
+
+映射 Map
+
+- 1）、存储 Key：value 数据对的数据结构。
+- 2）、根据 Key，寻找 Value。
+
+
+非常容易使用链表或者二分搜索树来实现。
+
+
+                                LinkedListMap  BSTMap       平均      最差
+add、remove、set、get、contains     O(n)                    O(h)            O(logn)         O(n)
+
+
+- [二分搜索树实现映射](data_struct_study/src/map/BSTMap.java)
+- [链表实现映射](data_struct_study/src/map/Bubble.java)
+- [intersect](data_struct_study/src/map/Solution1.java)
+
+
+### 九、堆、优先队列
+
+- 普通队列：先进先出，后进后出
+- 优先队列：出队顺序和入队顺序无关，和优先级相关
+
+
+应用场景：操作系统的任务调度，动态 选择优先级最高的任务进行处理。医生和患者之间的关系。
+
+
+优先队列底层实现    |   入队    |    出队 |
+---|---|---|
+  普通线性结构   |   O(1)   |     O(n) |
+  顺序线性结构   |   O(n)   |     O(n) |
+     堆       |    O(logn)   |  O(logn) |
+     
+     
+堆的基本结构
+
+ 二叉堆：满足特殊性质的二叉树。
+ 
+- 1、二叉堆是一颗完全二叉树，完全二叉树即把元素顺序一层一层地排列成树的形状。
+- 2、堆中每一个元素的值都大于等于它的孩子节点。
+
+用数组存储二叉树：
+
+```Java
+parent = (i - 1) / 2
+leftNode = 2 * i + 1
+rightNode = 2 * i + 2
+```
+
+
+- [动态数组实现最大堆](data_struct_study/src/heap_and_priority_queue/MaxHeap.java)
+- [最大堆实现优先队列](data_struct_study/src/heap_and_priority_queue/PriorityQueue.java)
+- [topKFrequent-1](data_struct_study/src/heap_and_priority_queue/Solution.java)
+- [topKFrequent-2](data_struct_study/src/heap_and_priority_queue/Solution2.java)
+
+
+### 十、递归
+
+递归：本质就是将原来的问题转换为更小的问题。
+
+- 1）、注意递归函数的宏观语义。
+- 2）、递归函数就是一个普通的函数，仅完成一个功能而已。
+
+
+递归算法通常分为两步：
+
+- 1）、求解基本问题。
+- 2）、把原问题转化为更小的问题。
+
+
+递归调用是有代价的：函数调用 + 系统栈空间
+
+其它常见的链表类型：
+
+- 1）、双向链表，每一个 ListNode 同时具有 pre、next 指针
+- 2）、双向循环链表：能够更进一步地封装很多便利的操作，Java 中的 LinkedList 的本质就是双向循环链表。
+- 3）、数组链表：如果明确知道要存储元素的总数，使用数组链表会更加方便，数组中存储一个个的 Node，Node 包含元素 e 与 int 型的 next 指针。
+
+
+- [removeElements-1](data_struct_study/src/recursion/Solution.java)
+- [removeElements-2](data_struct_study/src/recursion/Solution2.java)
+- [removeElements-3](data_struct_study/src/recursion/Solution3.java)
+- [removeElements-4](data_struct_study/src/recursion/Solution4.java)
+- [removeElements-5](data_struct_study/src/recursion/Solution5.java)
+
+
+### 十一、回溯
+
+
+
+
+
+### 十二、动态规划
+
+
+
+### 十三、贪心算法
+
+
+
+
+### 十四、其它问题
+
 
 
 
