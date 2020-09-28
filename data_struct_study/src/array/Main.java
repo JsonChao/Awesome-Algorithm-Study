@@ -1,11 +1,6 @@
 package array;
 
-/**
- * 数组最大的优点：快速查询
- * 数组最好应用于"索引有语义"的情况（但并非所有有语义的索引都适用于数组，例如身份证号码）
- * 我们需要额外处理索引有语义的情况
- * 数组的容量：capacity，数组的大小：size，初始为0
- */
+
 public class Main {
 
     public static void main(String[] args) {

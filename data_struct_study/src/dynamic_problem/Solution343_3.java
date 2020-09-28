@@ -1,7 +1,5 @@
 package dynamic_problem;
 
-import array.Array;
-
 import java.util.Arrays;
 
 /**

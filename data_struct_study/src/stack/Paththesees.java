@@ -1,6 +1,6 @@
 package stack;
 
-class Solution {
+class Paththesees {
     public boolean isValid(String s) {
         // 1、注意 stack 中存的是字符： Character
         Stack<Character> stack = new ArrayStack<>();

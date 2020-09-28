@@ -62,6 +62,14 @@
 - 3）、注意代码的模块化、复用性。
 
 
+### 7、面试答题四件套：
+
+- 1、询问：题目细节、边界条件、可能的极端错误情况。
+- 2、可能的解决方案：1）、时间 & 空间。2）、最优解。
+- 3、编码。
+- 4、测试用例。
+
+
 ## 时间复杂度
 
 ### 1、到底什么是大 O？
@@ -153,6 +161,9 @@ O(log(n)) 与 O(n) 有着本质的差别。
 Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使用三向切分的快速排序，对于引用类型使用归并排序。
 
 
+#### Hot Question
+
+
 - [选择](data_struct_study/src/sort_problem/Selection.java)
 - [冒泡](data_struct_study/src/sort_problem/Bubble.java)
 - [插入](data_struct_study/src/sort_problem/Insertion.java)
@@ -177,6 +188,9 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - 3、数组的扩容与缩容，手写时的易错点：
          - 1、注意数组的下标
          - 2、注意 size 与 capacity 的区别
+
+
+#### Hot Question
 
 
 - [实现动态数组](data_struct_study/src/array/Array.java)
@@ -209,6 +223,9 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 
 队列的基本应用 - 广度优先遍历
 
+#### Hot Question
+
+
 - [实现ArrayQueue](data_struct_study/src/queue/ArrayQueue.java)
 - [实现LoopQueue](data_struct_study/src/queue/LoopQueue.java)
 - [levelOrder](data_struct_study/src/queue_problem/Solution102.java)
@@ -224,6 +241,9 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - 1）、无处不在的撤销操作
 - 2）、系统栈的调用（操作系统）
 - 3）、括号匹配（编译器）
+
+
+#### Hot Question
 
 
 - [使用动态数组实现栈](data_struct_study/src/stack/ArrayStack.java)
@@ -265,6 +285,9 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - 查： O(n)
      
 总结：链表不适合去修改，且只适合 增、删、查 链表头的元素，此时时间复杂度为 O(1)。
+
+
+#### Hot Question
 
 
 - [实现链表](data_struct_study/src/LinkedList/LinkedList.java)
@@ -412,6 +435,9 @@ Java 中 Object 的 hashCode 是根据每一个对象的地址映射成整形。
 - 4、change（map）
 
 
+#### Hot Question
+
+
 - [实现哈希表](data_struct_study/src/hash_table/HashTable.java)
 - [firstUniqChar](data_struct_study/src/hash_table/Solution1.java)
 - [twoSum-1](data_struct_study/src/hash_table_problem/Solution1.java)
@@ -522,6 +548,9 @@ p 是 d 的前驱(predecessor)节点。
 最好的方式是实现一个维护 size 的二分搜索树：给 Node 节点添加新的成员变量 size。
 
 
+#### Hot Question
+
+
 - [实现二分搜索树](data_struct_study/src/binary_search_tree/BST.java)
 - [实现 AVL 树](data_struct_study/src/avl/AVLTree.java)
 - [实现红黑树](data_struct_study/src/red_black_tree/RBTree.java)
@@ -557,6 +586,9 @@ p 是 d 的前驱(predecessor)节点。
 
                                 LinkedListMap  BSTMap       平均      最差
 add、remove、set、get、contains     O(n)                    O(h)            O(logn)         O(n)
+
+
+#### Hot Question
 
 
 - [二分搜索树实现映射](data_struct_study/src/map/BSTMap.java)
@@ -596,13 +628,16 @@ rightNode = 2 * i + 2
 ```
 
 
+#### Hot Question
+
+
 - [动态数组实现最大堆](data_struct_study/src/heap_and_priority_queue/MaxHeap.java)
 - [最大堆实现优先队列](data_struct_study/src/heap_and_priority_queue/PriorityQueue.java)
 - [topKFrequent-1](data_struct_study/src/heap_and_priority_queue/Solution.java)
 - [topKFrequent-2](data_struct_study/src/heap_and_priority_queue/Solution2.java)
 
 
-### 十、递归
+### 十、递归与回溯
 
 递归：本质就是将原来的问题转换为更小的问题。
 
@@ -625,31 +660,227 @@ rightNode = 2 * i + 2
 - 3）、数组链表：如果明确知道要存储元素的总数，使用数组链表会更加方便，数组中存储一个个的 Node，Node 包含元素 e 与 int 型的 next 指针。
 
 
+#### Hot Question
+
+
 - [removeElements-1](data_struct_study/src/recursion/Solution.java)
 - [removeElements-2](data_struct_study/src/recursion/Solution2.java)
 - [removeElements-3](data_struct_study/src/recursion/Solution3.java)
 - [removeElements-4](data_struct_study/src/recursion/Solution4.java)
-- [removeElements-5](data_struct_study/src/recursion/Solution5.java)
+- [removeElements-5](data_struct_study/src/recursion/Solution.java)
+- [letterCombinations](data_struct_study/src/backstracking_problem/Solution17.java)
+- [combinationSum](data_struct_study/src/backstracking_problem/Solution39.java)
+- [combinationSum2](data_struct_study/src/backstracking_problem/Solution40.java)
+- [permute](data_struct_study/src/backstracking_problem/Solution46.java)
+- [permuteUnique](data_struct_study/src/backstracking_problem/Solution47.java)
+- [solveNQueens](data_struct_study/src/backstracking_problem/Solution51.java)
+- [combine](data_struct_study/src/backstracking_problem/Solution77.java)
+- [combine-2](data_struct_study/src/backstracking_problem/Solution77_2.java)
+- [subsets](data_struct_study/src/backstracking_problem/Solution78.java)
+- [exist](data_struct_study/src/backstracking_problem/Solution79.java)
+- [subsetsWithDup](data_struct_study/src/backstracking_problem/Solution90.java)
+- [restoreIpAddresses](data_struct_study/src/backstracking_problem/Solution93.java)
+- [floodfill](data_struct_study/src/backstracking_problem/Solution130.java)
+- [partition](data_struct_study/src/backstracking_problem/Solution131.java)
+- [numIslands](data_struct_study/src/backstracking_problem/Solution200.java)
+- [combinationSum3](data_struct_study/src/backstracking_problem/Solution216.java)
 
 
-### 十一、回溯
+### 十一、动态规划
+
+什么是动态规划？
+
+斐波那契数列——解决递归中的 重叠子问题 && 最优子结构：通过求子问题的最优解，可以获得原问题的最优解：
+
+- 1、记忆化搜索避免重复运算，自上而下的解决问题。
+- 2、动态规划，自下而上的解决问题。
 
 
+动态规划将是将原问题拆解成若干个子问题，同时保存子问题的答案，使得每个子问题只求解一次，最终获得原问题的答案。
 
 
-
-### 十二、动态规划
-
+#### Hot Question
 
 
-### 十三、贪心算法
+- [背包问题](data_struct_study/src/dynamic_problem/Solution.java)
+- [uniquePaths](data_struct_study/src/dynamic_problem/Solution62.java)
+- [minPathSum](data_struct_study/src/dynamic_problem/Solution64.java)
+- [climbStairs-1](data_struct_study/src/dynamic_problem/Solution70.java)
+- [climbStairs-2](data_struct_study/src/dynamic_problem/Solution70_2.java)
+- [climbStairs-3](data_struct_study/src/dynamic_problem/Solution70_3.java)
+- [minDistance](data_struct_study/src/dynamic_problem/Solution72.java)
+- [numDecodings](data_struct_study/src/dynamic_problem/Solution91.java)
+- [maxProfit_k_1](data_struct_study/src/dynamic_problem/Solution121.java)
+- [maxProfit_k_inf](data_struct_study/src/dynamic_problem/Solution122.java)
+- [wordBreak](data_struct_study/src/dynamic_problem/Solution139.java)
+- [rob-1](data_struct_study/src/dynamic_problem/Solution198.java)
+- [rob-2](data_struct_study/src/dynamic_problem/Solution198_2.java)
+- [rob-3](data_struct_study/src/dynamic_problem/Solution198_3.java)
+- [rob-4](data_struct_study/src/dynamic_problem/Solution198_4.java)
+- [rob-5](data_struct_study/src/dynamic_problem/Solution198_5.java)
+- [rob-6](data_struct_study/src/dynamic_problem/Solution198_6.java)
+- [rob-7](data_struct_study/src/dynamic_problem/Solution198_7.java)
+- [rob+](data_struct_study/src/dynamic_problem/Solution213.java)
+- [maxInWindows](data_struct_study/src/dynamic_problem/Solution239.java)
+- [numSquare](data_struct_study/src/dynamic_problem/Solution279.java)
+- [lengthOfLIS-1](data_struct_study/src/dynamic_problem/Solution300.java)
+- [lengthOfLIS-2](data_struct_study/src/dynamic_problem/Solution300_2.java)
+- [coinChange](data_struct_study/src/dynamic_problem/Solution322.java)
+- [rob](data_struct_study/src/dynamic_problem/Solution337.java)
+- [integerBreak-1](data_struct_study/src/dynamic_problem/Solution343.java)
+- [integerBreak-2](data_struct_study/src/dynamic_problem/Solution343_2.java)
+- [integerBreak-3](data_struct_study/src/dynamic_problem/Solution343_3.java)
+- [wiggleMaxLength](data_struct_study/src/dynamic_problem/Solution376.java)
+- [canPartition-1](data_struct_study/src/dynamic_problem/Solution416.java)
+- [canPartition-2](data_struct_study/src/dynamic_problem/Solution416_2.java)
+- [findTargetSumWays-1](data_struct_study/src/dynamic_problem/Solution494.java)
+- [findTargetSumWays-2](data_struct_study/src/dynamic_problem/Solution494_2.java)
+- [fib-1](data_struct_study/src/dynamic_problem/Solution509.java)
+- [fib-2](data_struct_study/src/dynamic_problem/Solution509_2.java)
+- [fib-3](data_struct_study/src/dynamic_problem/Solution509_3.java)
+- [longestCommonSubsequence-1](data_struct_study/src/dynamic_problem/Solution1143.java)
+- [longestCommonSubsequence-2](data_struct_study/src/dynamic_problem/Solution1143_2.java)
 
 
+### 十二、贪心算法
+
+贪心算法: 它也存在最小生成树与最短路径中。
 
 
-### 十四、其它问题
+#### Hot Question
 
 
+- [isSubsequence](data_struct_study/src/dynamic_problem/Solution392.java)
+- [eraseOverlapIntervals-1](data_struct_study/src/dynamic_problem/Solution435.java)
+- [eraseOverlapIntervals-2](data_struct_study/src/dynamic_problem/Solution435_2.java)
+- [findContentChildren-1](data_struct_study/src/dynamic_problem/Solution455.java)
+- [findContentChildren-2](data_struct_study/src/dynamic_problem/Solution455_2.java)
+
+
+### 十三、其它问题
+
+Bloom Filter 布隆过滤器：
+
+- 1、一个很长的二进制向量和一个映射函数。
+- 2、用于检索一个元素是否在一个集合中。
+- 3、优点是空间和查询时间效率越超一般算法，缺点是有一定的误识别率（仅当存在时）和删除困难，所以仅仅是一个预先处理模块。
+
+
+位运算操作：
+
+- 1、X & 1 == 1 OR == 0 判断奇偶（X % 2 == 1）
+- 2、X = X & (X-1) => 清零最低位的1
+- 3、X & -X => 得到最低位的1。
+    
+    
+0s 表示一串 0，1s 表示一串 1。
+
+```
+x ^ 0s = x      x & 0s = 0      x | 0s = x
+x ^ 1s = ~x     x & 1s = x      x | 1s = 1s
+x ^ x = 0       x & x = x       x | x = x
+```
+
+利用 x ^ 1s = \~x 的特点，可以将一个数的位级表示翻转；利用 x ^ x = 0 的特点，可以将三个数中重复的两个数去除，只留下另一个数。
+
+```
+1^1^2 = 2
+```
+
+利用 x & 0s = 0 和 x & 1s = x 的特点，可以实现掩码操作。一个数 num 与 mask：00111100 进行位与操作，只保留 num 中与 mask 的 1 部分相对应的位。
+
+```
+01011011 &
+00111100
+--------
+00011000
+```
+
+利用 x | 0s = x 和 x | 1s = 1s 的特点，可以实现设值操作。一个数 num 与 mask：00111100 进行位或操作，将 num 中与 mask 的 1 部分相对应的位都设置为 1。
+
+```
+01011011 |
+00111100
+--------
+01111111
+```
+
+**位与运算技巧**
+
+n&(n-1) 去除 n 的位级表示中最低的那一位 1。例如对于二进制表示 01011011，减去 1 得到 01011010，这两个数相与得到 01011010。
+
+```
+01011011 &
+01011010
+--------
+01011010
+```
+
+n&(-n) 得到 n 的位级表示中最低的那一位 1。-n 得到 n 的反码加 1，也就是 -n=\~n+1。例如对于二进制表示 10110100，-n 得到 01001100，相与得到 00000100。
+
+```
+10110100 &
+01001100
+--------
+00000100
+```
+
+n-(n&(-n)) 则可以去除 n 的位级表示中最低的那一位 1，和 n&(n-1) 效果一样。
+
+
+**移位运算**
+
+\>\> n 为算术右移，相当于除以 2n，例如 -7 \>\> 2 = -2。
+
+```
+11111111111111111111111111111001  >> 2
+--------
+11111111111111111111111111111110
+```
+
+\>\>\> n 为无符号右移，左边会补上 0。例如 -7 \>\>\> 2 = 1073741822。
+
+```
+11111111111111111111111111111001  >>> 2
+--------
+00111111111111111111111111111111
+```
+
+<< n 为算术左移，相当于乘以 2n。-7 << 2 = -28。
+
+```
+11111111111111111111111111111001  << 2
+--------
+11111111111111111111111111100100
+```
+
+**mask 计算**
+
+- 要获取 111111111，将 0 取反即可，\~0。
+- 要得到只有第 i 位为 1 的 mask，将 1 向左移动 i-1 位即可，1<<(i-1) 。例如 1<<4 得到只有第 5 位为 1 的 mask ：00010000。
+- 要得到 1 到 i 位为 1 的 mask，(1<<i)-1 即可，例如将 (1<<4)-1 = 00010000-1 = 00001111。
+- 要得到 1 到 i 位为 0 的 mask，只需将 1 到 i 位为 1 的 mask 取反，即 \~((1<<i)-1)。
+
+**Java 中的位操作**
+
+```html
+static int Integer.bitCount();           // 统计 1 的数量
+static int Integer.highestOneBit();      // 获得最高位
+static String toBinaryString(int i);     // 转换为二进制表示的字符串
+```
+
+
+#### Hot Question
+
+
+- [isPalindrome](data_struct_study/src/other_problem/Solution9.java)
+- [mySqrt](data_struct_study/src/other_problem/Solution69.java)
+- [singleNumber](data_struct_study/src/other_problem/Solution136.java)
+- [LRU Cache](data_struct_study/src/other_problem/Solution146.java)
+- [majorityElement-1](data_struct_study/src/other_problem/Solution169.java)
+- [majorityElement-2](data_struct_study/src/other_problem/Solution169_2.java)
+- [isPowerOfTwo-1](data_struct_study/src/other_problem/Solution231.java)
+- [isPowerOfTwo-2](data_struct_study/src/other_problem/Solution231_2.java)
 
 
 ## 赞赏
