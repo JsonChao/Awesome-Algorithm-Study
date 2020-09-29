@@ -3,6 +3,8 @@ package backstracking_problem;
 /**
  * O(m * n)
  * O(m * n)
+ * 岛屿数量: 求连通分支个数【dfs】和 【union find】。使用unionfind的原理为：
+ * 顶点数-最小生成树连线数=连通分支个数。
  */
 public class Solution200 {
 

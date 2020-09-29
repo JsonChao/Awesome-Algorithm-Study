@@ -1,5 +1,10 @@
 package dynamic_problem;
 
+/**
+ * 最小路径和：其实到达某点的最小路径，只与该点数值、到达该点左边
+ * 的最小路径、到达该点上边的最小路径有关。所以只要找到
+ * 【正确循环顺序】，就可以避免所有的中间储存，两层循环即可。
+ */
 public class Solution64 {
 
     public int minPathSum(int[][] grid) {

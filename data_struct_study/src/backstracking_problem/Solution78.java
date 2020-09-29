@@ -3,6 +3,9 @@ package backstracking_problem;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 子集
+ */
 public class Solution78 {
 
     public List<List<Integer>> subsets(int[] nums) {

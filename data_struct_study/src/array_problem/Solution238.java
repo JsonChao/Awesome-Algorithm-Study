@@ -2,6 +2,10 @@ package array_problem;
 
 import java.util.Arrays;
 
+/**
+ * 除自身以外数组的乘积: 对于每一个元素而言，左边的所有元素
+ * 乘以右边的所有元素就能得到答案。注意，两次循环不能合并！
+ */
 public class Solution238 {
 
     public int[] productExceptSelf(int[] nums) {
