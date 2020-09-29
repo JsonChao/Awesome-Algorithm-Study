@@ -23,13 +23,7 @@
 
 ## 如何准备算法面试？
 
-在学习和实践做题之间，要掌握平衡。这里推荐一下极客时间上覃超的五遍刷题法：
-
-- 1.第一遍，直接看解法：多解法，比较解法优劣，默写好的解法。
-- 2.第二遍，打开leetcode，直接开始写：多种解法比较，调优。
-- 3.第三遍，过一天之后，再重复做题。
-- 4.第四遍，过了一周，再来反复练。
-- 5.第五遍，面试前一周，恢复性训练。
+在学习和实践做题之间，要掌握平衡。
 
 
 ## 如何回答算法面试问题？
@@ -206,7 +200,11 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [lengthOfLongestSubstring-2](data_struct_study/src/array_problem/Solution3_2.java)
 - [lengthOfLongestSubstring-3](data_struct_study/src/array_problem/Solution3_3.java)
 - [lengthOfLongestSubstring-4](data_struct_study/src/array_problem/Solution3_4.java)
+- [longestPalindrome](data_struct_study/src/array_problem/Solution5.java)
+- [maxArea](data_struct_study/src/array_problem/Solution11.java)
+- [search旋转排序数组](data_struct_study/src/array_problem/Solution33.java)
 - [trap（接雨水）](data_struct_study/src/array_problem/Solution42.java)
+- [merge](data_struct_study/src/array_problem/Solution56.java)
 - [sortColors-1](data_struct_study/src/array_problem/Solution75.java)
 - [sortColors-2](data_struct_study/src/array_problem/Solution75_2.java)
 - [merge](data_struct_study/src/array_problem/Solution88.java)
@@ -221,6 +219,7 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [moveZeroes-3](data_struct_study/src/array_problem/Solution283_3.java)
 - [moveZeroes-4](data_struct_study/src/array_problem/Solution283_4.java)
 - [reverseVowels](data_struct_study/src/array_problem/Solution345.java)
+- [findAnagrams](data_struct_study/src/array_problem/Solution438.java)  
 - [findCircleNNum](data_struct_study/src/array_problem/Solution547.java)
 - [maxAreaOfIsland](data_struct_study/src/array_problem/Solution695.java)
 
@@ -299,16 +298,20 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [实现链表](data_struct_study/src/LinkedList/LinkedList.java)
 - [链表实现队列](data_struct_study/src/LinkedList/LinkedListQueue.java)
 - [链表实现栈](data_struct_study/src/LinkedList/LinkedListStack.java)
+- [addTwoNumbers](data_struct_study/src/LinkedList_problem/Solution2.java)
 - [removeNthFromEnd-1](data_struct_study/src/LinkedList_problem/Solution19.java)
 - [removeNthFromEnd-2](data_struct_study/src/LinkedList_problem/Solution19_2.java)
 - [mergeTwoLists](data_struct_study/src/LinkedList_problem/Solution21.java)
 - [swapPairs](data_struct_study/src/LinkedList_problem/Solution24.java)
 - [deleteDuplicates](data_struct_study/src/LinkedList_problem/Solution83.java)
 - [hasCycle](data_struct_study/src/LinkedList_problem/Solution141.java)
+- [detectCycle](data_struct_study/src/LinkedList_problem/Solution142.java)
+- [sortList](data_struct_study/src/LinkedList_problem/Solution148.java)
 - [getIntersectionNode](data_struct_study/src/LinkedList_problem/Solution160.java)
 - [removeElements](data_struct_study/src/LinkedList_problem/Solution203.java)
 - [reverseList-1](data_struct_study/src/LinkedList_problem/Solution206.java)
 - [reverseList-2](data_struct_study/src/LinkedList_problem/Solution206_2.java)
+- [isPalindrome](data_struct_study/src/LinkedList_problem/Solution234.java)
 - [deleteNode](data_struct_study/src/LinkedList_problem/Solution237.java)
 - [oddEvenList](data_struct_study/src/LinkedList_problem/Solution328.java)
 - [addTwoNumbers](data_struct_study/src/LinkedList_problem/Solution445.java)
@@ -448,6 +451,8 @@ Java 中 Object 的 hashCode 是根据每一个对象的地址映射成整形。
 - [firstUniqChar](data_struct_study/src/hash_table/Solution1.java)
 - [twoSum-1](data_struct_study/src/hash_table_problem/Solution1.java)
 - [twoSum-2](data_struct_study/src/hash_table_problem/Solution1_2.java)
+- [threeSum](data_struct_study/src/hash_table_problem/Solution15.java)
+- [groupAnagrams](data_struct_study/src/hash_table_problem/Solution49.java)
 - [isIsomorphic](data_struct_study/src/hash_table_problem/Solution205.java)
 - [containsDuplicate](data_struct_study/src/hash_table_problem/Solution217.java)
 - [containsNearbyDuplicate](data_struct_study/src/hash_table_problem/Solution219.java)
@@ -563,20 +568,21 @@ p 是 d 的前驱(predecessor)节点。
 - [实现分段树](data_struct_study/src/segment_tree/SegmentTree.java)
 - [实现前缀树](data_struct_study/src/trie)
 - [实现并查集](data_struct_study/src/union_find)
-- [isSymmetric](data_struct_study/src/sort_problem/Solution101.java)
-- [maxDepth](data_struct_study/src/sort_problem/Solution104.java)
-- [sortedArrayToBST](data_struct_study/src/sort_problem/Solution108.java)
-- [isBalanced](data_struct_study/src/sort_problem/Solution110.java)
-- [minDepth](data_struct_study/src/sort_problem/Solution111.java)
-- [hasPathSum](data_struct_study/src/sort_problem/Solution112.java)
-- [rob](data_struct_study/src/sort_problem/Solution198_8.java)
-- [invertTree](data_struct_study/src/sort_problem/Solution226.java)
-- [kthSmallest](data_struct_study/src/sort_problem/Solution230.java)
-- [lowestCommonAncestor-1](data_struct_study/src/sort_problem/Solution235.java)
-- [lowestCommonAncestor-2](data_struct_study/src/sort_problem/Solution236.java)
-- [binaryTreePaths](data_struct_study/src/sort_problem/Solution257.java)
-- [sumOfLeftLeaves](data_struct_study/src/sort_problem/Solution404.java)
-- [pathSum](data_struct_study/src/sort_problem/Solution437.java)
+- [isValidBST](data_struct_study/src/binary_search_tree_problem/Solution101.java)
+- [isSymmetric](data_struct_study/src/binary_search_tree_problem/Solution101.java)
+- [maxDepth](data_struct_study/src/binary_search_tree_problem/Solution104.java)
+- [sortedArrayToBST](data_struct_study/src/binary_search_tree_problem/Solution108.java)
+- [isBalanced](data_struct_study/src/binary_search_tree_problem/Solution110.java)
+- [minDepth](data_struct_study/src/binary_search_tree_problem/Solution111.java)
+- [hasPathSum](data_struct_study/src/binary_search_tree_problem/Solution112.java)
+- [rob](data_struct_study/src/binary_search_tree_problem/Solution198_8.java)
+- [invertTree](data_struct_study/src/binary_search_tree_problem/Solution226.java)
+- [kthSmallest](data_struct_study/src/binary_search_tree_problem/Solution230.java)
+- [lowestCommonAncestor-1](data_struct_study/src/binary_search_tree_problem/Solution235.java)
+- [lowestCommonAncestor-2](data_struct_study/src/binary_search_tree_problem/Solution236.java)
+- [binaryTreePaths](data_struct_study/src/binary_search_tree_problem/Solution257.java)
+- [sumOfLeftLeaves](data_struct_study/src/binary_search_tree_problem/Solution404.java)
+- [pathSum](data_struct_study/src/binary_search_tree_problem/Solution437.java)
 
 
 ### 八、映射
@@ -675,6 +681,7 @@ rightNode = 2 * i + 2
 - [removeElements-4](data_struct_study/src/recursion/Solution4.java)
 - [removeElements-5](data_struct_study/src/recursion/Solution.java)
 - [letterCombinations](data_struct_study/src/backstracking_problem/Solution17.java)
+- [generateParenthesis](data_struct_study/src/backstracking_problem/Solution22.java)
 - [combinationSum](data_struct_study/src/backstracking_problem/Solution39.java)
 - [combinationSum2](data_struct_study/src/backstracking_problem/Solution40.java)
 - [permute](data_struct_study/src/backstracking_problem/Solution46.java)
@@ -709,6 +716,7 @@ rightNode = 2 * i + 2
 
 
 - [背包问题](data_struct_study/src/dynamic_problem/Solution.java)
+- [maxSubArray](data_struct_study/src/dynamic_problem/Solution53.java)
 - [uniquePaths](data_struct_study/src/dynamic_problem/Solution62.java)
 - [minPathSum](data_struct_study/src/dynamic_problem/Solution64.java)
 - [climbStairs-1](data_struct_study/src/dynamic_problem/Solution70.java)
@@ -727,10 +735,12 @@ rightNode = 2 * i + 2
 - [rob-6](data_struct_study/src/dynamic_problem/Solution198_6.java)
 - [rob-7](data_struct_study/src/dynamic_problem/Solution198_7.java)
 - [rob+](data_struct_study/src/dynamic_problem/Solution213.java)
+- [maximalSquare](data_struct_study/src/dynamic_problem/Solution221.java)
 - [maxInWindows](data_struct_study/src/dynamic_problem/Solution239.java)
 - [numSquare](data_struct_study/src/dynamic_problem/Solution279.java)
 - [lengthOfLIS-1](data_struct_study/src/dynamic_problem/Solution300.java)
 - [lengthOfLIS-2](data_struct_study/src/dynamic_problem/Solution300_2.java)
+- [maxProfit](data_struct_study/src/dynamic_problem/Solution309.java)
 - [coinChange](data_struct_study/src/dynamic_problem/Solution322.java)
 - [rob](data_struct_study/src/dynamic_problem/Solution337.java)
 - [integerBreak-1](data_struct_study/src/dynamic_problem/Solution343.java)
