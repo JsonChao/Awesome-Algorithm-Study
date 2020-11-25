@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort_problem/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/ThreeWayQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_problem/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,10 +183,6 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="407" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597579168339">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="407" y="75" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1597579168339" />
     <state x="144" y="95" key="DiffContextDialog" timestamp="1601350098046">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
@@ -200,20 +194,20 @@
     <state x="20" y="43" width="1400" height="788" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598063666662">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1606011135870">
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1606264526961">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1606011135870" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1606264526961" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1598058510342" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1600770383663" />
     <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1602411362395">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1602411362395" />
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1602411361137">
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1606264532781">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1602411361137" />
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1606264532781" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
