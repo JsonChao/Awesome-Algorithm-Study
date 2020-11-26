@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack_problem/Solution_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_problem/Solution_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution344.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution344.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue_problem/Solution103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue_problem/Solution103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue_problem/Solution199.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue_problem/Solution199.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,10 +206,15 @@
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1606350907106" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1598058510342" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1600770383663" />
-    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1606353752070">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state x="248" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606357118562">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1606353752070" />
+    <state x="248" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831@0.23.1440.831" timestamp="1606357118562" />
+    <state x="297" y="130" width="1033" height="702" key="find.popup" timestamp="1606358287028">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1606354995544" />
+    <state x="297" y="130" width="1033" height="702" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1606358287028" />
     <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1606353562656">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
