@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sort_problem/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack_problem/Solution_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,20 +195,20 @@
     <state x="20" y="43" width="1400" height="788" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598063666662">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1606279604400">
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1606350907106">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1606279604400" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1606350907106" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1598058510342" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1600770383663" />
-    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1602411362395">
+    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1606353752070">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1602411362395" />
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1606264532781">
+    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1606353752070" />
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1606353562656">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1606264532781" />
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1606353562656" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
