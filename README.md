@@ -597,8 +597,8 @@ p 是 d 的前驱(predecessor)节点。
 - [binaryTreePaths](data_struct_study/src/binary_search_tree_problem/Solution257.java)
 - [sumOfLeftLeaves](data_struct_study/src/binary_search_tree_problem/Solution404.java)
 - [pathSum](data_struct_study/src/binary_search_tree_problem/Solution437.java)
-- [二叉树根节点到叶子节点的所有路径和](data_struct_study/src/binary_search_tree_problem/Solution_1.java)
-- [二叉树的之字形遍历](data_struct_study/src/binary_search_tree_problem/Solution_2.java)
+- [**二叉树根节点到叶子节点的所有路径和**](data_struct_study/src/binary_search_tree_problem/Solution_1.java)
+- [**二叉树的之字形遍历**](data_struct_study/src/binary_search_tree_problem/Solution_2.java)
 
 
 ### 八、映射
@@ -661,8 +661,8 @@ rightNode = 2 * i + 2
 
 - [动态数组实现最大堆](data_struct_study/src/heap_and_priority_queue/MaxHeap.java)
 - [最大堆实现优先队列](data_struct_study/src/heap_and_priority_queue/PriorityQueue.java)
-- [topKFrequent-1](data_struct_study/src/heap_and_priority_queue/Solution.java)
-- [topKFrequent-2](data_struct_study/src/heap_and_priority_queue/Solution2.java)
+- [**topKFrequent-1**](data_struct_study/src/heap_and_priority_queue/Solution.java)
+- [**topKFrequent-2**](data_struct_study/src/heap_and_priority_queue/Solution2.java)
 
 
 ### 十、递归与回溯
