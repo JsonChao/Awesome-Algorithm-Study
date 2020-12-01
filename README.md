@@ -164,14 +164,14 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 #### Hot Question
 
 
-- [选择](data_struct_study/src/sort_problem/Selection.java)
-- [冒泡](data_struct_study/src/sort_problem/Bubble.java)
-- [插入](data_struct_study/src/sort_problem/Insertion.java)
-- [希尔](data_struct_study/src/sort_problem/Shell.java)
-- [快速](data_struct_study/src/sort_problem/QuickSort.java)
-- [三向切分快速](data_struct_study/src/sort_problem/ThreeWayQuickSort.java)
-- [归并](data_struct_study/src/sort_problem/MergeSort.java)
-- [堆](data_struct_study/src/sort_problem/HeapSort.java)
+- [**选择**](data_struct_study/src/sort_problem/Selection.java)
+- [**冒泡**](data_struct_study/src/sort_problem/Bubble.java)
+- [**插入**](data_struct_study/src/sort_problem/Insertion.java)
+- [**希尔**](data_struct_study/src/sort_problem/Shell.java)
+- [**归并**](data_struct_study/src/sort_problem/MergeSort.java)
+- [**快速**](data_struct_study/src/sort_problem/QuickSort.java)
+- [**三向切分快速**](data_struct_study/src/sort_problem/ThreeWayQuickSort.java)
+- [**堆**](data_struct_study/src/sort_problem/HeapSort.java)
 
 
 ### 二、数组
@@ -201,13 +201,13 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [**lengthOfLongestSubstring-3**](data_struct_study/src/array_problem/Solution3_3.java)
 - [**lengthOfLongestSubstring-4**](data_struct_study/src/array_problem/Solution3_4.java)
 - [longestPalindrome](data_struct_study/src/array_problem/Solution5.java)
-- [maxArea](data_struct_study/src/array_problem/Solution11.java)
+- [**maxArea**](data_struct_study/src/array_problem/Solution11.java)
 - [search旋转排序数组](data_struct_study/src/array_problem/Solution33.java)
 - [trap（接雨水）](data_struct_study/src/array_problem/Solution42.java)
-- [merge](data_struct_study/src/array_problem/Solution56.java)
+- [**合并区间**](data_struct_study/src/array_problem/Solution56.java)
 - [sortColors-1](data_struct_study/src/array_problem/Solution75.java)
 - [sortColors-2](data_struct_study/src/array_problem/Solution75_2.java)
-- [**merge**](data_struct_study/src/array_problem/Solution88.java)
+- [**合并两个有序数组**](data_struct_study/src/array_problem/Solution88.java)
 - [longestConsecutive](data_struct_study/src/array_problem/Solution128.java)
 - [twoSum-1](data_struct_study/src/array_problem/Solution167.java)
 - [twoSum-2](data_struct_study/src/array_problem/Solution167_2.java)
@@ -224,6 +224,8 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [findCircleNNum](data_struct_study/src/array_problem/Solution547.java)
 - [maxAreaOfIsland](data_struct_study/src/array_problem/Solution695.java)
 - [**FindNumsAppearOnce**](data_struct_study/src/array_problem/Solution_1.java)
+- [**数组中出现次数超过一半的数字**](data_struct_study/src/array_problem/Solution_2.java)
+- [**数组中未出现的最小正整数字**](data_struct_study/src/array_problem/Solution_3.java)
 
 
 ### 三、队列
@@ -236,6 +238,7 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [实现ArrayQueue](data_struct_study/src/queue/ArrayQueue.java)
 - [实现LoopQueue](data_struct_study/src/queue/LoopQueue.java)
 - [**levelOrder**](data_struct_study/src/queue_problem/Solution102.java)
+- [**二叉树的左视图**](data_struct_study/src/queue_problem/Solution199.java)
 - [numSquares-1](data_struct_study/src/sort_problem/Solution279.java)
 - [numSquares-2](data_struct_study/src/sort_problem/Solution279_2.java)
 - [topKFrequent](data_struct_study/src/sort_problem/Solution347.java)
@@ -261,8 +264,9 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [**preorderTraversal-2**](data_struct_study/src/stack_problem/Solution144_2.java)
 - [**postorderTraversal-1**](data_struct_study/src/stack_problem/Solution145.java)
 - [**postorderTraversal-2**](data_struct_study/src/stack_problem/Solution145_2.java)
-- [最小值栈](data_struct_study/src/stack_problem/Solution155.java)
+- [**最小值栈**](data_struct_study/src/stack_problem/Solution155.java)
 - [**两个队列实现一个栈**](data_struct_study/src/stack_problem/Solution_1.java)
+- [**表达式求值**](data_struct_study/src/stack_problem/Solution_2.java)
 
 
 ### 五、链表
@@ -308,7 +312,7 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [**mergeKLists**](data_struct_study/src/LinkedList_problem/Solution23.java)
 - [swapPairs](data_struct_study/src/LinkedList_problem/Solution24.java)
 - [**reverseKGroup**](data_struct_study/src/LinkedList_problem/Solution25.java)
-- [deleteDuplicates](data_struct_study/src/LinkedList_problem/Solution83.java)
+- [**deleteDuplicates**](data_struct_study/src/LinkedList_problem/Solution83.java)
 - [**hasCycle**](data_struct_study/src/LinkedList_problem/Solution141.java)
 - [**detectCycle**](data_struct_study/src/LinkedList_problem/Solution142.java)
 - [sortList](data_struct_study/src/LinkedList_problem/Solution148.java)
@@ -321,6 +325,10 @@ Java 主要排序方法为 java.util.Arrays.sort()，对于原始数据类型使
 - [oddEvenList](data_struct_study/src/LinkedList_problem/Solution328.java)
 - [**addTwoNumbers**](data_struct_study/src/LinkedList_problem/Solution445.java)
 - [**FindFirstCommonNode**](data_struct_study/src/LinkedList_problem/Solution_1.java)
+- [**单链表的选择排序**](data_struct_study/src/LinkedList_problem/Solution_2.java)
+- [**链表中倒数第k个节点**](data_struct_study/src/LinkedList_problem/Solution_3.java)
+- [**判断一个链表是否为回文结构点**](data_struct_study/src/LinkedList_problem/Solution_4.java)
+
 
 
 ### 六、哈希表
@@ -576,7 +584,7 @@ p 是 d 的前驱(predecessor)节点。
 - [实现并查集](data_struct_study/src/union_find)
 - [isValidBST](data_struct_study/src/binary_search_tree_problem/Solution101.java)
 - [isSymmetric](data_struct_study/src/binary_search_tree_problem/Solution101.java)
-- [maxDepth](data_struct_study/src/binary_search_tree_problem/Solution104.java)
+- [**maxDepth**](data_struct_study/src/binary_search_tree_problem/Solution104.java)
 - [sortedArrayToBST](data_struct_study/src/binary_search_tree_problem/Solution108.java)
 - [isBalanced](data_struct_study/src/binary_search_tree_problem/Solution110.java)
 - [minDepth](data_struct_study/src/binary_search_tree_problem/Solution111.java)
@@ -589,6 +597,8 @@ p 是 d 的前驱(predecessor)节点。
 - [binaryTreePaths](data_struct_study/src/binary_search_tree_problem/Solution257.java)
 - [sumOfLeftLeaves](data_struct_study/src/binary_search_tree_problem/Solution404.java)
 - [pathSum](data_struct_study/src/binary_search_tree_problem/Solution437.java)
+- [二叉树根节点到叶子节点的所有路径和](data_struct_study/src/binary_search_tree_problem/Solution_1.java)
+- [二叉树的之字形遍历](data_struct_study/src/binary_search_tree_problem/Solution_2.java)
 
 
 ### 八、映射
@@ -730,8 +740,8 @@ rightNode = 2 * i + 2
 - [**climbStairs-3**](data_struct_study/src/dynamic_problem/Solution70_3.java)
 - [minDistance](data_struct_study/src/dynamic_problem/Solution72.java)
 - [numDecodings](data_struct_study/src/dynamic_problem/Solution91.java)
-- [maxProfit_k_1](data_struct_study/src/dynamic_problem/Solution121.java)
-- [maxProfit_k_inf](data_struct_study/src/dynamic_problem/Solution122.java)
+- [**maxProfit_k_1**](data_struct_study/src/dynamic_problem/Solution121.java)
+- [**maxProfit_k_inf**](data_struct_study/src/dynamic_problem/Solution122.java)
 - [wordBreak](data_struct_study/src/dynamic_problem/Solution139.java)
 - [rob-1](data_struct_study/src/dynamic_problem/Solution198.java)
 - [rob-2](data_struct_study/src/dynamic_problem/Solution198_2.java)
@@ -903,6 +913,8 @@ static String toBinaryString(int i);     // 转换为二进制表示的字符串
 - [majorityElement-2](data_struct_study/src/other_problem/Solution169_2.java)
 - [isPowerOfTwo-1](data_struct_study/src/other_problem/Solution231.java)
 - [isPowerOfTwo-2](data_struct_study/src/other_problem/Solution231_2.java)
+- [**反转数字**](data_struct_study/src/other_problem/Solution_1.java)
+- [**生产者消费者**](data_struct_study/src/other_problem/Solution_2.java)
 
 
 ## 赞赏
