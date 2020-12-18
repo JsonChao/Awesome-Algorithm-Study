@@ -20,8 +20,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution42.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution54.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution54.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution200.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution216.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution216.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution40.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution51.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution51.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution78.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution78.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution93.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution93.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution101.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution101.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution108.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution108.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution110.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution110.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution111.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution111.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution230.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution230.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution236.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution236.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution404.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution404.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution437.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution437.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution98.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution98.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution1143.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution1143.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution1143_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution1143_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution121.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution121.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution122.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution122.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution213.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution213.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution221.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution221.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution309.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution309.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution322.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution322.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution337.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution337.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution343_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution343_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution494.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution494.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution509_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution509_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution53.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution62.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution64.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution72.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/dynamic_problem/Solution72.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution205.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution205.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution217.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution217.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution242.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution242.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution49.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution49.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution102$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution102$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution102.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution103.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution103.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution199.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution199.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/segment_tree/SegmentTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution155.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution155.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution80.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_problem/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_problem/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/Selection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,35 +141,9 @@
       <recent name="$PROJECT_DIR$/src/set" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution238">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hash_table.Main" />
-      <module name="data_struct_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hash_table.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="red_black_tree.Main3" />
-      <module name="data_struct_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="red_black_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_problem.Solution238" />
+  <component name="RunManager" selected="Application.Solution215">
+    <configuration name="Solution11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution11" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution279_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue_problem.Solution279_2" />
+    <configuration name="Solution215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution215" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue_problem.*" />
+          <option name="PATTERN" value="array_problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +168,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_problem.Solution3" />
+    <configuration name="Solution3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution3_3" />
+      <module name="data_struct_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array_problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution3_4" />
+      <module name="data_struct_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array_problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution88" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution238" />
-        <item itemvalue="Application.Solution279_2" />
-        <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Solution215" />
+        <item itemvalue="Application.Solution88" />
+        <item itemvalue="Application.Solution11" />
+        <item itemvalue="Application.Solution3_4" />
+        <item itemvalue="Application.Solution3_3" />
       </list>
     </recent_temporary>
   </component>
@@ -187,30 +248,62 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="144" y="95" key="DiffContextDialog/0.23.1440.830@0.23.1440.830" timestamp="1601350098046" />
+    <state width="1388" height="225" key="GridCell.Tab.0.bottom" timestamp="1608255091600">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="225" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1608255091600" />
+    <state width="1388" height="225" key="GridCell.Tab.0.center" timestamp="1608255091600">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="225" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1608255091600" />
+    <state width="1388" height="225" key="GridCell.Tab.0.left" timestamp="1608255091599">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="225" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1608255091599" />
+    <state width="1388" height="225" key="GridCell.Tab.0.right" timestamp="1608255091600">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="225" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1608255091600" />
+    <state width="1388" height="211" key="GridCell.Tab.1.bottom" timestamp="1608254712375">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="211" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1608254712375" />
+    <state width="1388" height="211" key="GridCell.Tab.1.center" timestamp="1608254712374">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="211" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1608254712374" />
+    <state width="1388" height="211" key="GridCell.Tab.1.left" timestamp="1608254712373">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="211" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1608254712373" />
+    <state width="1388" height="211" key="GridCell.Tab.1.right" timestamp="1608254712374">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1388" height="211" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1608254712374" />
     <state x="256" y="104" key="RollbackChangesDialog" timestamp="1601350100166">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="256" y="104" key="RollbackChangesDialog/0.23.1440.830@0.23.1440.830" timestamp="1601350100166" />
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1606791925563">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608249789978">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1606350907106" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1608249789978" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1606791925563" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606797939122">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="248" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831@0.23.1440.831" timestamp="1606357118562" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.832@0.23.1440.832" timestamp="1606797939122" />
-    <state x="297" y="130" width="1033" height="703" key="find.popup" timestamp="1606804217121">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1606354995544" />
-    <state x="297" y="130" width="1033" height="702" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1606358287028" />
-    <state x="297" y="130" width="1033" height="703" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1606804217121" />
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1606353562656">
+    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1608181463445">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1606353562656" />
+    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1608181463445" />
+    <state x="297" y="130" width="1033" height="702" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1606358287028" />
+    <state x="297" y="130" width="1033" height="703" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1606804382244" />
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1608254591956">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1608254591956" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,6 +312,11 @@
           <url>file://$PROJECT_DIR$/src/heap_and_priority_queue/Solution.java</url>
           <line>370</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array_problem/Solution88.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

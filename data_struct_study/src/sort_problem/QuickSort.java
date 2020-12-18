@@ -39,11 +39,11 @@ public class QuickSort<T extends Comparable<T>> extends Sort<T> {
         list.toArray(nums);
     }
 
-    // 取 a[l] 作为切分元素，然后从数组的左端向右扫描直到找到第一个
+    // 取 nums[l] 作为切分元素，然后从数组的左端向右扫描直到找到第一个
     // 大于等于它的元素，再从数组的右端向左扫描找到第一个小于它的元素，
     // 交换这两个元素。不断进行这个过程，就可以保证左指针 i 的左侧元素
     // 都不大于切分元素，右指针 j 的右侧元素都不小于切分元素。当两个
-    // 指针相遇时，将切分元素 a[l] 和 a[j] 交换位置。
+    // 指针相遇时，将切分元素 nums[l] 和 nums[j] 交换位置。此时的j就是切分元素
     private int partition(T[] nums, int l, int h) {
         int i = l, j = h + 1;
         T v = nums[l];

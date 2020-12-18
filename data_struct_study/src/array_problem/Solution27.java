@@ -52,7 +52,7 @@ package array_problem;
  */
 public class Solution27 {
 
-    public int removeElement(int[] nums, int val) {
-
-    }
+//    public int removeElement(int[] nums, int val) {
+//
+//    }
 }

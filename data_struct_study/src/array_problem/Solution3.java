@@ -11,24 +11,28 @@ package array_problem;
  */
 public class Solution3 {
 
+    // 时间复杂度为 O(len(s))，空间复杂度为 O(len(charset))
     public int lengthOfLongestSubstring(String s) {
 
-        // 1)、初始化一个存储 ascill 字符集的数组
+        // 1、初始化一个存储ascill字符集的数组
         int[] freq = new int[256];
 
-        // 2）、起始的滑动窗口为 [0， -1]
+        // 2、初始化滑动窗口：[0, -1]，窗口大小为0 & 记录滑动窗口最大值的变量
         int l = 0, r = -1;
-
         int res = 0;
 
-        // 3）、维护滑动窗口
+        // 3、当左边界小于字符串长度时，维护滑动窗口
         while (l < s.length()) {
+            // 1）、如果右边界+1小于字符串长度 & 右边界+1的出现频次为0，
+            // 则将右边界+1,同时将右边界的出现频次+1
             if (r + 1 < s.length() && freq[s.charAt(r + 1)] == 0) {
-                freq[s.charAt(++r)] ++;
+                freq[s.charAt(++r)]++;
             } else {
-                freq[s.charAt(l++)] --;
+                // 2）、否则，将左边界的出现频次-1，同时左边界+1
+                freq[s.charAt(l++)]--;
             }
 
+            // 3）、更新维护滑动窗口的大小
             res = Math.max(res, r - l + 1);
         }
 
