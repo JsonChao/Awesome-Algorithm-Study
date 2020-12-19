@@ -462,10 +462,10 @@ Java 中 Object 的 hashCode 是根据每一个对象的地址映射成整形。
 
 
 - [实现哈希表](data_struct_study/src/hash_table/HashTable.java)
-- [firstUniqChar](data_struct_study/src/hash_table/Solution1.java)
 - [**twoSum-1**](data_struct_study/src/hash_table_problem/Solution1.java)
 - [**twoSum-2**](data_struct_study/src/hash_table_problem/Solution1_2.java)
 - [**threeSum**](data_struct_study/src/hash_table_problem/Solution15.java)
+- [firstUniqChar](data_struct_study/src/hash_table/Solution1.java)
 - [groupAnagrams](data_struct_study/src/hash_table_problem/Solution49.java)
 - [isIsomorphic](data_struct_study/src/hash_table_problem/Solution205.java)
 - [containsDuplicate](data_struct_study/src/hash_table_problem/Solution217.java)
@@ -582,9 +582,13 @@ p 是 d 的前驱(predecessor)节点。
 - [实现分段树](data_struct_study/src/segment_tree/SegmentTree.java)
 - [实现前缀树](data_struct_study/src/trie)
 - [实现并查集](data_struct_study/src/union_find)
+- [**maxDepth**](data_struct_study/src/binary_search_tree_problem/Solution104.java)
+- [**lowestCommonAncestor-1**](data_struct_study/src/binary_search_tree_problem/Solution235.java)
+- [**lowestCommonAncestor-2**](data_struct_study/src/binary_search_tree_problem/Solution236.java)
+- [**二叉树根节点到叶子节点的所有路径和**](data_struct_study/src/binary_search_tree_problem/Solution_1.java)
+- [**二叉树的之字形遍历**](data_struct_study/src/binary_search_tree_problem/Solution_2.java)
 - [isValidBST](data_struct_study/src/binary_search_tree_problem/Solution101.java)
 - [isSymmetric](data_struct_study/src/binary_search_tree_problem/Solution101.java)
-- [**maxDepth**](data_struct_study/src/binary_search_tree_problem/Solution104.java)
 - [sortedArrayToBST](data_struct_study/src/binary_search_tree_problem/Solution108.java)
 - [isBalanced](data_struct_study/src/binary_search_tree_problem/Solution110.java)
 - [minDepth](data_struct_study/src/binary_search_tree_problem/Solution111.java)
@@ -592,13 +596,10 @@ p 是 d 的前驱(predecessor)节点。
 - [rob](data_struct_study/src/binary_search_tree_problem/Solution198_8.java)
 - [invertTree](data_struct_study/src/binary_search_tree_problem/Solution226.java)
 - [kthSmallest](data_struct_study/src/binary_search_tree_problem/Solution230.java)
-- [**lowestCommonAncestor-1**](data_struct_study/src/binary_search_tree_problem/Solution235.java)
-- [**lowestCommonAncestor-2**](data_struct_study/src/binary_search_tree_problem/Solution236.java)
 - [binaryTreePaths](data_struct_study/src/binary_search_tree_problem/Solution257.java)
 - [sumOfLeftLeaves](data_struct_study/src/binary_search_tree_problem/Solution404.java)
 - [pathSum](data_struct_study/src/binary_search_tree_problem/Solution437.java)
-- [**二叉树根节点到叶子节点的所有路径和**](data_struct_study/src/binary_search_tree_problem/Solution_1.java)
-- [**二叉树的之字形遍历**](data_struct_study/src/binary_search_tree_problem/Solution_2.java)
+
 
 
 ### 八、映射
@@ -691,6 +692,8 @@ rightNode = 2 * i + 2
 #### Hot Question
 
 
+- [**permute**](data_struct_study/src/backstracking_problem/Solution46.java)
+- [**permuteUnique**](data_struct_study/src/backstracking_problem/Solution47.java)
 - [removeElements-1](data_struct_study/src/recursion/Solution.java)
 - [removeElements-2](data_struct_study/src/recursion/Solution2.java)
 - [removeElements-3](data_struct_study/src/recursion/Solution3.java)
@@ -700,8 +703,6 @@ rightNode = 2 * i + 2
 - [generateParenthesis](data_struct_study/src/backstracking_problem/Solution22.java)
 - [combinationSum](data_struct_study/src/backstracking_problem/Solution39.java)
 - [combinationSum2](data_struct_study/src/backstracking_problem/Solution40.java)
-- [**permute**](data_struct_study/src/backstracking_problem/Solution46.java)
-- [**permuteUnique**](data_struct_study/src/backstracking_problem/Solution47.java)
 - [solveNQueens](data_struct_study/src/backstracking_problem/Solution51.java)
 - [combine](data_struct_study/src/backstracking_problem/Solution77.java)
 - [combine-2](data_struct_study/src/backstracking_problem/Solution77_2.java)
@@ -732,16 +733,20 @@ rightNode = 2 * i + 2
 
 
 - [背包问题](data_struct_study/src/dynamic_problem/Solution.java)
-- [maxSubArray](data_struct_study/src/dynamic_problem/Solution53.java)
-- [uniquePaths](data_struct_study/src/dynamic_problem/Solution62.java)
-- [minPathSum](data_struct_study/src/dynamic_problem/Solution64.java)
 - [**climbStairs-1**](data_struct_study/src/dynamic_problem/Solution70.java)
 - [**climbStairs-2**](data_struct_study/src/dynamic_problem/Solution70_2.java)
 - [**climbStairs-3**](data_struct_study/src/dynamic_problem/Solution70_3.java)
-- [minDistance](data_struct_study/src/dynamic_problem/Solution72.java)
-- [numDecodings](data_struct_study/src/dynamic_problem/Solution91.java)
 - [**maxProfit_k_1**](data_struct_study/src/dynamic_problem/Solution121.java)
 - [**maxProfit_k_inf**](data_struct_study/src/dynamic_problem/Solution122.java)
+- [**lengthOfLIS-1**](data_struct_study/src/dynamic_problem/Solution300.java)
+- [**lengthOfLIS-2**](data_struct_study/src/dynamic_problem/Solution300_2.java)
+- [**longestCommonSubsequence-1**](data_struct_study/src/dynamic_problem/Solution1143.java)
+- [**longestCommonSubsequence-2**](data_struct_study/src/dynamic_problem/Solution1143_2.java)
+- [maxSubArray](data_struct_study/src/dynamic_problem/Solution53.java)
+- [uniquePaths](data_struct_study/src/dynamic_problem/Solution62.java)
+- [minPathSum](data_struct_study/src/dynamic_problem/Solution64.java)
+- [minDistance](data_struct_study/src/dynamic_problem/Solution72.java)
+- [numDecodings](data_struct_study/src/dynamic_problem/Solution91.java)
 - [wordBreak](data_struct_study/src/dynamic_problem/Solution139.java)
 - [rob-1](data_struct_study/src/dynamic_problem/Solution198.java)
 - [rob-2](data_struct_study/src/dynamic_problem/Solution198_2.java)
@@ -754,8 +759,6 @@ rightNode = 2 * i + 2
 - [maximalSquare](data_struct_study/src/dynamic_problem/Solution221.java)
 - [maxInWindows](data_struct_study/src/dynamic_problem/Solution239.java)
 - [numSquare](data_struct_study/src/dynamic_problem/Solution279.java)
-- [**lengthOfLIS-1**](data_struct_study/src/dynamic_problem/Solution300.java)
-- [**lengthOfLIS-2**](data_struct_study/src/dynamic_problem/Solution300_2.java)
 - [maxProfit](data_struct_study/src/dynamic_problem/Solution309.java)
 - [coinChange](data_struct_study/src/dynamic_problem/Solution322.java)
 - [rob](data_struct_study/src/dynamic_problem/Solution337.java)
@@ -770,8 +773,7 @@ rightNode = 2 * i + 2
 - [fib-1](data_struct_study/src/dynamic_problem/Solution509.java)
 - [fib-2](data_struct_study/src/dynamic_problem/Solution509_2.java)
 - [fib-3](data_struct_study/src/dynamic_problem/Solution509_3.java)
-- [**longestCommonSubsequence-1**](data_struct_study/src/dynamic_problem/Solution1143.java)
-- [**longestCommonSubsequence-2**](data_struct_study/src/dynamic_problem/Solution1143_2.java)
+
 
 
 ### 十二、贪心算法
@@ -905,16 +907,17 @@ static String toBinaryString(int i);     // 转换为二进制表示的字符串
 #### Hot Question
 
 
+- [**LRU Cache**](data_struct_study/src/other_problem/Solution146.java)
+- [**反转数字**](data_struct_study/src/other_problem/Solution_1.java)
+- [**生产者消费者**](data_struct_study/src/other_problem/Solution_2.java)
 - [isPalindrome](data_struct_study/src/other_problem/Solution9.java)
 - [mySqrt](data_struct_study/src/other_problem/Solution69.java)
 - [singleNumber](data_struct_study/src/other_problem/Solution136.java)
-- [**LRU Cache**](data_struct_study/src/other_problem/Solution146.java)
 - [majorityElement-1](data_struct_study/src/other_problem/Solution169.java)
 - [majorityElement-2](data_struct_study/src/other_problem/Solution169_2.java)
 - [isPowerOfTwo-1](data_struct_study/src/other_problem/Solution231.java)
 - [isPowerOfTwo-2](data_struct_study/src/other_problem/Solution231_2.java)
-- [**反转数字**](data_struct_study/src/other_problem/Solution_1.java)
-- [**生产者消费者**](data_struct_study/src/other_problem/Solution_2.java)
+
 
 
 ## 赞赏
