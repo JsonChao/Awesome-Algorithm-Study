@@ -21,12 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution344.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution344.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/array_problem/Solution_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution344.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution344.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution167_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution167_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution167_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution167_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution1_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +84,9 @@
       <recent name="$PROJECT_DIR$/src/set" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution_2">
-    <configuration name="Solution215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_problem.Solution215" />
+  <component name="RunManager" selected="Application.Solution1_2">
+    <configuration name="Solution167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution167" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_problem.Solution344" />
+    <configuration name="Solution167_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution167_2" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_problem.Solution88" />
+    <configuration name="Solution167_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution167_3" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_problem.Solution_1" />
+    <configuration name="Solution1_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash_table_problem.Solution1_2" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array_problem.*" />
+          <option name="PATTERN" value="hash_table_problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_problem.Solution_2" />
+    <configuration name="Solution_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_problem.Solution_3" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution_2" />
-        <item itemvalue="Application.Solution_1" />
-        <item itemvalue="Application.Solution344" />
-        <item itemvalue="Application.Solution215" />
-        <item itemvalue="Application.Solution88" />
+        <item itemvalue="Application.Solution1_2" />
+        <item itemvalue="Application.Solution167_3" />
+        <item itemvalue="Application.Solution167_2" />
+        <item itemvalue="Application.Solution167" />
+        <item itemvalue="Application.Solution_3" />
       </list>
     </recent_temporary>
   </component>
@@ -192,46 +191,46 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="144" y="95" key="DiffContextDialog/0.23.1440.830@0.23.1440.830" timestamp="1601350098046" />
-    <state width="1388" height="225" key="GridCell.Tab.0.bottom" timestamp="1608268501295">
+    <state width="1388" height="225" key="GridCell.Tab.0.bottom" timestamp="1608454291864">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1608268501295" />
-    <state width="1388" height="225" key="GridCell.Tab.0.center" timestamp="1608268501294">
+    <state width="1388" height="225" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1608454291864" />
+    <state width="1388" height="225" key="GridCell.Tab.0.center" timestamp="1608454291864">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1608268501294" />
-    <state width="1388" height="225" key="GridCell.Tab.0.left" timestamp="1608268501294">
+    <state width="1388" height="225" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1608454291864" />
+    <state width="1388" height="225" key="GridCell.Tab.0.left" timestamp="1608454291864">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1608268501294" />
-    <state width="1388" height="225" key="GridCell.Tab.0.right" timestamp="1608268501294">
+    <state width="1388" height="225" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1608454291864" />
+    <state width="1388" height="225" key="GridCell.Tab.0.right" timestamp="1608454291864">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1608268501294" />
-    <state width="1388" height="172" key="GridCell.Tab.1.bottom" timestamp="1608268501292">
+    <state width="1388" height="225" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1608454291864" />
+    <state width="1388" height="172" key="GridCell.Tab.1.bottom" timestamp="1608454291860">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1608268501292" />
-    <state width="1388" height="172" key="GridCell.Tab.1.center" timestamp="1608268501292">
+    <state width="1388" height="172" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1608454291860" />
+    <state width="1388" height="172" key="GridCell.Tab.1.center" timestamp="1608454291859">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1608268501292" />
-    <state width="1388" height="172" key="GridCell.Tab.1.left" timestamp="1608268501292">
+    <state width="1388" height="172" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1608454291859" />
+    <state width="1388" height="172" key="GridCell.Tab.1.left" timestamp="1608454291859">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1608268501292" />
-    <state width="1388" height="172" key="GridCell.Tab.1.right" timestamp="1608268501292">
+    <state width="1388" height="172" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1608454291859" />
+    <state width="1388" height="172" key="GridCell.Tab.1.right" timestamp="1608454291860">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1608268501292" />
+    <state width="1388" height="172" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1608454291860" />
     <state x="256" y="104" key="RollbackChangesDialog" timestamp="1601350100166">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="256" y="104" key="RollbackChangesDialog/0.23.1440.830@0.23.1440.830" timestamp="1601350100166" />
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608341575796">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1608434466302">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1608249789978" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1608434466302" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1608341575796" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1606791925563" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606797939122">
@@ -239,16 +238,16 @@
     </state>
     <state x="248" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831@0.23.1440.831" timestamp="1606357118562" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.832@0.23.1440.832" timestamp="1606797939122" />
-    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1608261855738">
+    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1608453009302">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1608261855738" />
+    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1608453009302" />
     <state x="297" y="130" width="1033" height="702" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1606358287028" />
     <state x="297" y="130" width="1033" height="703" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1606804382244" />
-    <state x="301" y="23" width="838" height="831" key="search.everywhere.popup" timestamp="1608341599368">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1608453007986">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1608266846360" />
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1608453007986" />
     <state x="301" y="23" width="838" height="831" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1608341599368" />
   </component>
   <component name="XDebuggerManager">
@@ -263,6 +262,16 @@
           <url>file://$PROJECT_DIR$/src/array_problem/Solution88.java</url>
           <line>25</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array_problem/Solution_3.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array_problem/Solution_3.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

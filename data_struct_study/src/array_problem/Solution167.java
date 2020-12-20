@@ -1,6 +1,8 @@
 package array_problem;
 //https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/:两数之和 II - 输入有序数组
 
+import java.util.Arrays;
+
 /**
  * 给定一个已按照升序排列 的有序数组，找到两个数使得它们相加之和等于目标数。
  *
@@ -27,15 +29,18 @@ package array_problem;
  */
 public class Solution167 {
 
-    public int[] twoSum(int[] numbers, int target) {
-
-        if (numbers.length < 2) {
-            throw new IllegalArgumentException("length of numbers is illegal!");
+    // 1、双层遍历每一种可能的组合：时间复杂度 O(n^2)。（没有利用有序）
+    public int[] twoSum(int[] arr, int target) {
+        // 1、有效性判断
+        int n = arr.length;
+        if (n < 2) {
+            throw new IllegalArgumentException("length of arr is illegal");
         }
 
-        for (int i = 0; i < numbers.length; i++) {
-            for (int j = i + 1; j < numbers.length; j++) {
-                if (numbers[i] + numbers[j] == target) {
+        // 2、双层for循环查找每一种可能的组合
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (arr[i] + arr[j] == target) {
                     int[] res = {i + 1, j + 1};
                     return res;
                 }
@@ -43,5 +48,10 @@ public class Solution167 {
         }
 
         throw new IllegalArgumentException("no target!");
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {2, 7, 11, 15};
+        System.out.println(Arrays.toString(new Solution167().twoSum(arr, 9)));
     }
 }
