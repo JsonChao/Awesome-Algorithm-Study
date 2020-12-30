@@ -21,17 +21,18 @@ public class Solution94 {
     }
 
     public List<Integer> inorderTraversal(TreeNode root) {
-
-        ArrayList<Integer> res = new ArrayList<>();
+        // 1、创建一个返回列表
+        List<Integer> res = new ArrayList<>();
         inorderTraversal(root, res);
         return res;
     }
 
-    private void inorderTraversal(TreeNode node, ArrayList<Integer> res) {
-        if (node != null) {
-            inorderTraversal(node.left, res);
-            res.add(node.val);
-            inorderTraversal(node.right, res);
+    // 2、递归实现中序遍历：左根右
+    private void inorderTraversal(TreeNode root, List<Integer> res) {
+        if (root != null) {
+            inorderTraversal(root.left, res);
+            res.add(root.val);
+            inorderTraversal(root.right, res);
         }
     }
 

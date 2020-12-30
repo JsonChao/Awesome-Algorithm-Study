@@ -22,11 +22,13 @@ public class Solution144 {
     }
 
     public List<Integer> preorderTraversal(TreeNode root) {
+        // 1、创建一个返回列表
         ArrayList<Integer> res = new ArrayList<>();
         preorderTraversal(root, res);
         return res;
     }
 
+    // 2、递归实现前序遍历：根左右
     private void preorderTraversal(TreeNode node, ArrayList<Integer> res) {
         if (node != null) {
             res.add(node.val);
@@ -34,4 +36,5 @@ public class Solution144 {
             preorderTraversal(node.right, res);
         }
     }
+
 }

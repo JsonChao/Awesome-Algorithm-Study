@@ -21,33 +21,32 @@ public class Solution145_2 {
         }
     }
 
-    private class Command {
+    class Command {
         String val;
         TreeNode node;
-        public Command(String val, TreeNode node) {
-            this.val = val;
+        public Command(String s, TreeNode node) {
+            this.val = s;
             this.node = node;
         }
     }
 
-    public List<Integer> postorderTraversal(TreeNode root) {
-
-        ArrayList<Integer> res = new ArrayList<>();
+    public List<Integer> postOrderTraversal(TreeNode root) {
+        // 1、创建一个返回列表，如果根节点为null，则直接返回
+        List<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;
         }
 
+        // 2、使用栈Stack<Command>模拟系统栈实现二叉树的非递归遍历：倒过来看为左右根，为什么？因为栈是先进后出的
         Stack<Command> stack = new Stack<>();
         stack.push(new Command("go", root));
         while (!stack.isEmpty()) {
-
             Command command = stack.pop();
 
             if (command.val.equals("print")) {
                 res.add(command.node.val);
             } else if (command.val.equals("go")) {
 
-                // 不同于递归写法，栈是先进后出的，所以需要反过来
                 stack.push(new Command("print", command.node));
 
                 if (command.node.right != null) {

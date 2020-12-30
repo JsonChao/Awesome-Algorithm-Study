@@ -1,6 +1,9 @@
 package dynamic_problem;
 
 /**
+ * 题目描述：给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
+ * 设计一个算法来计算你所能获取的最大利润。你可以尽可能地完成更多的交易（多次买卖一支股票）。
+ *
  * 如果 k 为正无穷，那么就可以认为 k 和 k - 1 是一样的:
  * dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
  * dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
@@ -38,14 +41,24 @@ package dynamic_problem;
  */
 public class Solution122 {
 
-    int maxProfit_k_inf(int[] prices) {
-        int n = prices.length;
+    // 时间复杂度：O(n), 空间复杂度：O(1)
+    public int maxProfit_k_inf(int[] prices) {
+        // 1、初始化第i天未持有为0，第i天持有为负无穷
         int dp_i_0 = 0, dp_i_1 = Integer.MIN_VALUE;
-        for (int i = 0; i < n; i++) {
+
+        // 2、遍历价格数组
+        for (int price : prices) {
+            // 1）、初始化temp变量记录前一天未持有的价格
             int temp = dp_i_0;
-            dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
-            dp_i_1 = Math.max(dp_i_1, temp - prices[i]);
+
+            // 2）、当天未持有等于 前一天未持有和前天持有+当天价格 中的最大值
+            dp_i_0 = Math.max(dp_i_0, dp_i_1 + price);
+
+            // 3）、当天持有等于 前一天持有和temp-当天价格 中的最大值
+            dp_i_1 = Math.max(dp_i_1, temp - price);
         }
+
+        // 3、返回最后一天未持有的价格
         return dp_i_0;
     }
 
@@ -53,10 +66,10 @@ public class Solution122 {
         int n = prices.length;
         int dp_i_0 = 0, dp_i_1 = Integer.MIN_VALUE;
         int dp_pre_0 = 0; // 代表 dp[i-2][0]
-        for (int i = 0; i < n; i++) {
+        for (int price : prices) {
             int temp = dp_i_0;
-            dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
-            dp_i_1 = Math.max(dp_i_1, dp_pre_0 - prices[i]);
+            dp_i_0 = Math.max(dp_i_0, dp_i_1 + price);
+            dp_i_1 = Math.max(dp_i_1, dp_pre_0 - price);
             dp_pre_0 = temp;
         }
         return dp_i_0;
@@ -65,10 +78,10 @@ public class Solution122 {
     int maxProfit_with_fee(int[] prices, int fee) {
         int n = prices.length;
         int dp_i_0 = 0, dp_i_1 = Integer.MIN_VALUE;
-        for (int i = 0; i < n; i++) {
+        for (int price : prices) {
             int temp = dp_i_0;
-            dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
-            dp_i_1 = Math.max(dp_i_1, temp - prices[i] - fee);
+            dp_i_0 = Math.max(dp_i_0, dp_i_1 + price);
+            dp_i_1 = Math.max(dp_i_1, temp - price - fee);
         }
         return dp_i_0;
     }

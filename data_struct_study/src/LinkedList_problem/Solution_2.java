@@ -1,59 +1,51 @@
 package LinkedList_problem;
 
 /**
- * 1. 在链表头前边建立哨兵，开始时，已经排好序的链表为空，
- *    因此已经排序的链表的尾部指针指向刚建立的哨兵；
- * 2. 根据选择排序的思想，我们需要每次从未排序的列表中选择最小的一个节点，
- *    利用头插法将其插入到已经排序好的链表的后面；
- * 3. 接着，将已经排序好的链表的尾部指针指向刚插入的元素；
- * 4. 重复步骤2和3，直到所有的元素都已经排好序，即已经排序的链表的尾部指针移动到了链表的尾部。
+ * 单链表的选择排序：
+ *
+ * 时间复杂度：O(n^2)
+ * 空间复杂度：O(1)
  */
-
-/*
- * public class ListNode {
- *   int val;
- *   ListNode next = null;
- * }
- */
-
 public class Solution_2 {
-    /**
-     *
-     * @param head ListNode类 the head node
-     * @return ListNode类
-     */
-    public ListNode sortInList (ListNode head) {
-        // 寻找最小的元素，并利用头插法插入到节点
-        ListNode dummy = new ListNode(Integer.MAX_VALUE);
-        dummy.next = head;
-        ListNode sorted = dummy;
 
+    // 根据选择排序的思想寻找最小的元素，并利用头插法插入到节点
+    public ListNode sortInList (ListNode head) {
+        // 1、创建一个虚拟头结点并将它指向真正的头结点，再赋值给已排序的链表
+        ListNode dummyHead = new ListNode(Integer.MAX_VALUE);
+        dummyHead.next = head;
+        ListNode sorted = dummyHead;
+
+        // 2、当已排序链表还有下一个元素时，即移动到链表尾部时已经排好序
         while (sorted.next != null) {
+            // 1）、创建pre、cur、pre_min、min便于后续的插入操作
             ListNode pre = sorted;
             ListNode cur = sorted.next;
             ListNode pre_min = null;
             ListNode min = null;
 
-            // 寻找最小的数
+            // 2）、当cur不等于null时：寻找最小的数min与pre_min
             while (cur != null) {
                 if (min == null || cur.val < min.val) {
                     min = cur;
                     pre_min = pre;
                 }
-                // 继续向后移动指针
+
+                // 1）、更新cur和pre：继续向后移动指针
                 cur = cur.next;
                 pre = pre.next;
             }
 
-            // 利用头插法插入
+            // 3）、将当前min从排序链表中移除，并利用头插法插入
+            // 例子：dummyHead->head => dummyHead->min->head => dummyHead->新min->min->head
             pre_min.next = min.next;
             min.next = sorted.next;
             sorted.next = min;
 
-            // 哨兵节点往后移动
+            // 4）、哨兵节点往后移动
             sorted = min;
         }
 
-        return dummy.next;
+        return dummyHead.next;
     }
+
 }

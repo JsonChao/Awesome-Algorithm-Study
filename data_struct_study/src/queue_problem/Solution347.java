@@ -7,10 +7,8 @@ import java.util.*;
 
 /**
  * 347:
- *      1、k 合法性。
- *      2、最简单的思路：扫描一遍统计概率，排序找到前k个出现频率最高的元素。O(nlogn)
- *      3、使用优先队列不停地维护我们能找到的前k个出现频率最高的元素。O(nlogk)
- *      4、维护优先队列，O(nlog(n-k))
+ *      1、最简单的思路：扫描一遍统计概率，排序找到前k个出现频率最高的元素。时间复杂度：O(nlogn)
+ *      2、使用优先队列不停地维护我们能找到的前k个出现频率最高的元素。时间复杂度：O(nlogk)
  */
 public class Solution347 {
 
@@ -18,7 +16,7 @@ public class Solution347 {
 
         @Override
         public int compare(Pair<Integer, Integer> o1, Pair<Integer, Integer> o2) {
-            if (o1.fst != o2.fst) {
+            if (!o1.fst.equals(o2.fst)) {
                 return o1.fst - o2.fst;
             }
             return o1.snd - o2.snd;
@@ -67,6 +65,7 @@ public class Solution347 {
 //        return res;
 //    }
 
+    // 时间复杂度：O(nlogk), 空间复杂度：O(n)
     public int[] topKFrequent(int[] nums, int k) {
 
         // 1、将所有 元素:出现频次 添加到 TreeMap 中
@@ -79,7 +78,7 @@ public class Solution347 {
             }
         }
 
-        // 2、使用优先队列维护前 Top k 个元素
+        // 2、使用最小堆实现的优先队列维护前 Top k 个元素
         PriorityQueue<Integer> pq = new PriorityQueue<>((o1, o2) -> map.get(o1) - map.get(o2));
         for (int key:map.keySet()) {
             if (pq.size() < k) {

@@ -28,18 +28,22 @@ public class Solution102 {
         }
     }
 
+    // 层次遍历类似于BFS，在while循环中使用队列 + 每层单独一个list
     public List<List<Integer>> levelOrder(TreeNode root) {
-
-        ArrayList<List<Integer>> res = new ArrayList<>();
+        // 1、创建一个双层列表用于保存结果, 如果root为null，则直接返回
+        List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
             return res;
         }
 
-        // 使用队列先进先出的特性
+        // 2、使用队列先进先出的特性：创建一个队列, 并首先将根节点入队
         LinkedList<Pair<TreeNode, Integer>> queue = new LinkedList<>();
-        queue.add(new Pair<>(root, 0));
-        while (!queue.isEmpty()) {
+        queue.addLast(new Pair<>(root, 0));
 
+        // 3、当队列不为空时
+        while (!queue.isEmpty()) {
+            // 1）、取出队首元素，如果当前元素层次等于res的层次，则说明还有新的子节点要添加，
+            // 此时需要添加新的列表到res中
             Pair<TreeNode, Integer> pair = queue.removeFirst();
             TreeNode node = pair.fst;
             int level = pair.snd;
@@ -48,18 +52,27 @@ public class Solution102 {
                 res.add(new ArrayList<>());
             }
 
-            assert level < res.size();
+            // 2）、异常边界处理：确保res的大小大于当前元素的层次
+            assert res.size() > level;
 
+            // 3）、添加当前元素节点值到res对应层次中
             res.get(level).add(node.val);
+
+            // 4）、如果当前节点还有左右子节点，则添加到队列尾部
             if (node.left != null) {
                 queue.addLast(new Pair<>(node.left, level + 1));
             }
+
             if (node.right != null) {
                 queue.addLast(new Pair<>(node.right, level + 1));
             }
         }
 
         return res;
+    }
+
+    public static void main(String[] args) {
+
     }
 
 }

@@ -3,22 +3,27 @@ package LinkedList_problem;
 /**
  * 两个链表的公共节点
  *
- * 设 A 的长度为 a + c，B 的长度为 b + c，其中 c 为尾部公共部分长度，
- * 可知 a + c + b = b + c + a。
+ * 两个链表长度分别为L1+C、L2+C， C为公共部分的长度，第一个人走了L1+C步后，
+ * 回到第二个人起点走L2步；第2个人走了L2+C步后，回到第一个人起点走L1步。
+ * 当两个人走的步数都为L1+L2+C时这两个家伙就相爱了。
  *
- * 当访问链表 A 的指针访问到链表尾部时，令它从链表 B 的头部重新开始访问
- * 链表 B；同样地，当访问链表 B 的指针访问到链表尾部时，令它从链表 A 的
- * 头部重新开始访问链表 A。这样就能控制访问 A 和 B 两个链表的指针能同时
- * 访问到交点。
+ * 时间复杂度：O(L1+L2+C)
+ * 空间复杂度：O(1)
  */
 public class Solution_1 {
 
-    public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
+    public ListNode findFirstCommonNode(ListNode pHead1, ListNode pHead2) {
+        // 1、定义双指针
         ListNode l1 = pHead1, l2 = pHead2;
+
+        // 2、当l1和l2没有相遇时：同时移动l1和l2，当有一方到达尾部时，
+        // 就会从另一端开始，当两者相遇时，此时的位置就是相交的位置了
         while (l1 != l2) {
             l1 = (l1 == null) ? pHead2 : l1.next;
             l2 = (l2 == null) ? pHead1 : l2.next;
         }
+
         return l1;
     }
+
 }

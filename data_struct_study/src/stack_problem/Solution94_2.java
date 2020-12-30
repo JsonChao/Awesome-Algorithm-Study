@@ -32,12 +32,13 @@ public class Solution94_2 {
     }
 
     public List<Integer> inorderTraversal(TreeNode root) {
-
+        // 1、创建一个返回列表，如果根节点为null，直接返回
         ArrayList<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;
         }
 
+        // 2、创建一个Stack<Command>对象模拟系统栈实现非递归二叉树的中序遍历：倒过来看为左根右
         Stack<Command> stack = new Stack<>();
         stack.push(new Command("go", root));
         while (!stack.isEmpty()) {
