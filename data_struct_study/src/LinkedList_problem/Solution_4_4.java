@@ -1,10 +1,10 @@
 package LinkedList_problem;
 
 
-import java.security.PublicKey;
-
-// 快慢指针:
-// 时间复杂度：O(n), 空间复杂度：O(1)
+/**
+ * 快慢指针:
+ * 时间复杂度：O(n), 空间复杂度：O(1)
+ */
 public class Solution_4_4 {
 
     // 4、快慢指针解法：先使用快慢指针找到前半个链表的尾节点，然后翻转后半个部分链表，

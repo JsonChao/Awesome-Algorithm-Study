@@ -41,7 +41,6 @@ public class Solution3_2 {
     }
 
     public static void main(String[] args) {
-
         System.out.println((new Solution3_2()).lengthOfLongestSubstring( "abcabcbb" ));
     }
 

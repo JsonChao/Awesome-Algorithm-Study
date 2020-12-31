@@ -39,8 +39,9 @@ public class HeapSort<T extends Comparable<T>> extends Sort<T> {
         // 到根（1）为止，依次对每个分支结点进行调整（下沉），
         // 以便形成以每个分支结点为根的堆，当最后对树根结点进行
         // 调整后，整个树就变成了一个堆。
-        for (int k = N / 2; k >= 1; k--)
+        for (int k = N / 2; k >= 1; k--) {
             sink(nums, k, N);
+        }
 
         while (N > 1) {
             // 2、将堆顶元素与堆尾元素交换，并从待排序列中移除堆尾元素。
@@ -51,18 +52,23 @@ public class HeapSort<T extends Comparable<T>> extends Sort<T> {
     }
 
     private void sink(T[] nums, int k, int N) {
-        // 1、仅当当前节点有左子节点时进入while循环体。
+        // 1）、仅当当前节点有左子节点时进入while循环体。
         while (2 * k <= N) {
-            // 2、设立下沉后的位置为j，默认为左子节点。
+            // 2）、设立下沉后的位置为j，默认为左子节点。
             int j = 2 * k;
-            // 3、如果当前节点有右子节点且左子节点小于右子节点时，下沉后的位置j取右子节点的位置（j++）。
-            if (j < N && less(nums, j, j + 1))
+
+            // 3）、如果当前节点有右子节点且左子节点小于右子节点时，下沉后的位置j取右子节点的位置（j++）。
+            if (j < N && less(nums, j, j + 1)) {
                 j++;
-            // 4、如果当前节点的位置k小于下沉后的位置j时，交换k与j的值，完成这一次的下沉操作。
-            if (!less(nums, k, j))
+            }
+
+            // 4）、如果当前节点的位置k小于下沉后的位置j时，交换k与j的值，完成这一次的下沉操作。
+            if (!less(nums, k, j)) {
                 break;
+            }
             swap(nums, k, j);
-            // 5、更新当前节点的位置为j，如果当前节点还有左子节点则又会进入while循环体进行上述的下沉操作。
+
+            // 5）、更新当前节点的位置为j，如果当前节点还有左子节点则又会进入while循环体进行上述的下沉操作。
             k = j;
         }
     }

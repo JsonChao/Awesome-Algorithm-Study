@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+
 /**
  * 递归与回溯
  *
  * 题目描述：给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
- * 有效的 IP 地址 正好由四个整数（每个整数位于 0 到 255 之间组成，且不能含有前导 0），整数之间用 '.' 分隔。
+ * 有效的 IP 地址 正好由四个整数（每个整数位于 0 到 255 之间组成，且不能含有前导 0），
+ * 整数之间用 '.' 分隔。
  *
  * 时间复杂度：O(3 ^ SEG_COUNT * ∣s∣)
  * 空间复杂度：O(SEG_COUNT)

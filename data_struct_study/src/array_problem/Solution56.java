@@ -48,5 +48,4 @@ public class Solution56 {
         return list.toArray(new int[0][]);
     }
 
-
 }

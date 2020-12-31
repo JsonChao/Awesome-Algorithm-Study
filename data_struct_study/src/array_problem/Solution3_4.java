@@ -1,7 +1,5 @@
 package array_problem;
 
-import array.Array;
-
 import java.util.Arrays;
 
 /**

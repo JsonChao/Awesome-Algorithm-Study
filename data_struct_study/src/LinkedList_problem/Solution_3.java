@@ -43,30 +43,4 @@ public class Solution_3 {
         return P2;
     }
 
-    public ListNode findKthToEnd(ListNode head, int k) {
-        // 1、异常处理：如果head==null，则直接返回
-        if (head == null) {
-            return null;
-        }
-
-        // 2、初始化P1，然后移动P1 k步
-        ListNode P1 = head;
-        while (P1 != null && k-- > 0) {
-            P1 = P1.next;
-        }
-
-        // 3、异常处理：如果k步没有走完，直接返回null
-        if (k > 0) {
-            return null;
-        }
-
-        // 4、初始化P2，然后同时移动P1、P2，当P1走到null时，P2就是倒数第k个节点
-        ListNode P2 = head;
-        while (P1 != null) {
-            P1 = P1.next;
-            P2 = P2.next;
-        }
-
-        return P2;
-    }
 }

@@ -14,8 +14,8 @@ import java.util.List;
  * 这种情况下比较次数为 CN=2CN/2+N，复杂度为 O(NlogN)。
  *
  * 最坏的情况下，第一次从最小的元素切分，第二次从第二小的元素切分，如此这般。
- * 因此最坏的情况下需要比较 N2/2。为了防止数组最开始就是有序的，
- * 在进行快速排序时需要随机打乱数组。
+ * 因此最坏的情况下需要比较 N2/2。
+ * 为了防止数组最开始就是有序的，需要在进行快速排序时随机打乱数组。
  */
 public class QuickSort<T extends Comparable<T>> extends Sort<T> {
 
@@ -26,8 +26,10 @@ public class QuickSort<T extends Comparable<T>> extends Sort<T> {
     }
 
     private void sort(T[] nums, int l, int h) {
-        if (h <= l)
+        if (h <= l) {
             return;
+        }
+
         int j = partition(nums, l, h);
         sort(nums, l, j - 1);
         sort(nums, j + 1, h);

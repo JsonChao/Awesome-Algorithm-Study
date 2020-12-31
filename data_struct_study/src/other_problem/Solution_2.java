@@ -6,6 +6,10 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
+
+/**
+ * 生产者消费者
+ */
 public class Solution_2 {
 
     // 1、定义一个Message类

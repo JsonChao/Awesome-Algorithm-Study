@@ -1,12 +1,12 @@
 package other_problem;
 
-
 import java.util.LinkedHashMap;
+
 
 /**
  * LRU Cache 146：
  *
- * 运用你所掌握的数据结构，设计和实现一个  LRU (最近最少使用) 缓存机制 。
+ * 运用你所掌握的数据结构，设计和实现一个 LRU (最近最少使用) 缓存机制 。
  * 实现 LRUCache 类：
  * LRUCache(int capacity) 以正整数作为容量 capacity 初始化 LRU 缓存
  * int get(int key) 如果关键字 key 存在于缓存中，则返回关键字的值，否则返回 -1 。
