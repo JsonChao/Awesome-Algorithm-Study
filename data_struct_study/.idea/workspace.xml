@@ -20,100 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_4_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_4_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_4_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution141.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution141.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution142.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution142.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution19_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution19_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206_2$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206_2$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution206_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution445.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution445.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution83.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution83.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/LinkedList_problem/Solution_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution46.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution46.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution47.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution47.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution93.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/backstracking_problem/Solution93.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution104$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution104$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution104.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution104.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution235$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution235$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution235.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution235.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution236$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution236$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution236.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution236.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_1$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_1$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_2$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_2$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/binary_search_tree_problem/Solution_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/hash_table_problem/Solution15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution102.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution199.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution199.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution347$MinComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution347$MinComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution347.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/queue_problem/Solution347.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution144.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution144.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution144_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution144_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution145.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution145.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution145_2$Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution145_2$Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution145_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution145_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution155.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution155.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution94.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution94.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution94_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution94_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_struct_study/stack_problem/Solution_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution141.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution142.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution19_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution19_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution206_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution206_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution445.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution445.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution83.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking_problem/Solution46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backstracking_problem/Solution46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking_problem/Solution47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backstracking_problem/Solution47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking_problem/Solution93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backstracking_problem/Solution93.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution235.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution236.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution122.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution300.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution300_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution300_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution70_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution70_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution70_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution70_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue_problem/Solution102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue_problem/Solution102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue_problem/Solution199.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue_problem/Solution199.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue_problem/Solution347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue_problem/Solution347.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution144.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution144_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution144_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution145.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution145_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution145_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution155.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution155.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution94.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution94_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution94_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution1143.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution1143.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution1143_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution1143_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_problem/Solution146.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_problem/Solution146.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_problem/Solution_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_problem/Solution_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,6 +187,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="489" y="55" key="#com.intellij.ide.util.MemberChooser" timestamp="1609383875175">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="489" y="55" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1609383875175" />
     <state x="144" y="95" key="DiffContextDialog" timestamp="1601350098046">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
@@ -323,10 +239,10 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="100" y="123" width="1240" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.832@0.23.1440.832" timestamp="1608525811798" />
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1609290283888">
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1609373532613">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1609290283888" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1609373532613" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1608341575796" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1606791925563" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606797939122">
@@ -334,16 +250,16 @@
     </state>
     <state x="248" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831@0.23.1440.831" timestamp="1606357118562" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.832@0.23.1440.832" timestamp="1606797939122" />
-    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1609304668364">
+    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1609382454207">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1609304668364" />
+    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1609382454207" />
     <state x="297" y="130" width="1033" height="702" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1606358287028" />
     <state x="297" y="130" width="1033" height="703" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1608527596178" />
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1609292556003">
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1609379390443">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1609292556003" />
+    <state x="301" y="23" width="838" height="830" key="search.everywhere.popup/0.23.1440.830@0.23.1440.830" timestamp="1609379390443" />
     <state x="301" y="23" width="838" height="831" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1608341599368" />
   </component>
   <component name="XDebuggerManager">
