@@ -1,4 +1,4 @@
-# 排序算法
+# 排序算法（必备）
 
 ## 1、选择
 
@@ -386,7 +386,7 @@ public class HeapSort<T extends Comparable<T>> extends Sort<T> {
 ```
 
 
-# 高频算法
+# 高频算法（必备）
 
 ## 1、二分搜索
 
