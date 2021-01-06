@@ -3058,7 +3058,7 @@ public class Solution15 {
             // 1）、初始化左右指针l、r
             int l = i + 1, r = nums.length - 1;
 
-            // 2）、异常处理：第一个数组大于0，后面的数肯定比它大，肯定不成立了
+            // 2）、异常处理：如果第一个数大于0，后面的数肯定比它大，直接break
             if (nums[i] > 0) {
                 break;
             }
