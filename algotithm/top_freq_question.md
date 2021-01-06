@@ -2786,13 +2786,13 @@ public class Solution_2 {
                 pre = pre.next;
             }
 
-            // 3）、将当前min从排序链表中移除，并利用头插法插入
+            // 3）、将当前min从未排序链表部分中移除，并利用头插法插入已排序链表部分
             // 例子：dummyHead->head => dummyHead->min->head => dummyHead->新min->min->head
             pre_min.next = min.next;
             min.next = sorted.next;
             sorted.next = min;
 
-            // 4）、哨兵节点往后移动
+            // 4）、哨兵节点往后移动（重置为未排序链表部分头部的前一个位置）
             sorted = min;
         }
 
