@@ -2007,7 +2007,7 @@ public class Solution_1 {
         in.push(node);
     }
 
-    // 1、要确保每次只有当out栈为空时才从第in栈中pop值到out栈中，以防止来回倒
+    // 1、要确保每次只有当out栈为空时才从in栈中pop值到out栈中，以防止来回倒
     public int pop() throws Exception {
         if (out.isEmpty()) {
             while (!in.isEmpty()) {
