@@ -1,4 +1,4 @@
-# 排序算法（必备）
+    # 排序算法（必备）
 
 ## 1、选择
 
@@ -357,6 +357,9 @@ public class HeapSort<T extends Comparable<T>> extends Sort<T> {
         }
     }
 
+    // 当当前节点有左子节点就进行下沉操作：首先如果当前节点有右子节点且左子节点小于右子节点时，
+    // 下沉后的位置取右子节点的位置，然后如果当前节点值小于下沉后的值时，则两两交换，
+    // 完成这一次的下沉操作，最后更新当前节点位置为下沉后的位置，如此反复即可。
     private void sink(T[] nums, int k, int N) {
         // 1）、仅当当前节点有左子节点时进入while循环体。
         while (2 * k <= N) {
@@ -368,7 +371,7 @@ public class HeapSort<T extends Comparable<T>> extends Sort<T> {
                 j++;
             }
             
-            // 4）、如果当前节点的位置k小于下沉后的位置j时，交换k与j的值，完成这一次的下沉操作。
+            // 4）、如果当前节点值小于下沉后的值时，交换k与j的值，完成这一次的下沉操作。
             if (!less(nums, k, j)) {
                 break;
             }
