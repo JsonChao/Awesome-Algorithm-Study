@@ -21,52 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db6cb7ce-ce1b-404a-925e-ef5bea5b864c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution445.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution445.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_problem/Solution_4_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_problem/Solution_4_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/BinarySearch2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/BinarySearch2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution167.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution215.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution344.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution344.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution3_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution56.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_problem/Solution_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking_problem/Solution46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backstracking_problem/Solution46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking_problem/Solution47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backstracking_problem/Solution47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backstracking_problem/Solution93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backstracking_problem/Solution93.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search_tree_problem/Solution_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution1143.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution1143.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution1143_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution1143_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution122.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution300.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution300_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution300_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution70_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution70_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_problem/Solution70_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_problem/Solution70_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_table_problem/Solution15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_table_problem/Solution15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap_and_priority_queue/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap_and_priority_queue/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_problem/Solution146.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_problem/Solution146.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_problem/Solution_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_problem/Solution_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_problem/Solution_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_problem/Solution_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort_problem/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort_problem/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sort_problem/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort_problem/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort_problem/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort_problem/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_problem/ThreeWayQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution144.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution144_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution144_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution145.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution145_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution145_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_problem/Solution94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_problem/Solution94.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +80,13 @@
       <recent name="$PROJECT_DIR$/src/set" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution93">
-    <configuration name="Solution20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_problem.Solution20" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort_problem.MergeSort" />
       <module name="data_struct_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack_problem.*" />
+          <option name="PATTERN" value="sort_problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Solution93" />
         <item itemvalue="Application.Solution47" />
         <item itemvalue="Application.Solution46" />
         <item itemvalue="Application.Solution_2" />
-        <item itemvalue="Application.Solution20" />
       </list>
     </recent_temporary>
   </component>
@@ -232,58 +187,50 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="489" y="55" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1609383875175" />
-    <state x="144" y="95" key="DiffContextDialog" timestamp="1601350098046">
+    <state width="1388" height="268" key="GridCell.Tab.0.bottom" timestamp="1610499911600">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="144" y="95" key="DiffContextDialog/0.23.1440.830@0.23.1440.830" timestamp="1601350098046" />
-    <state width="1388" height="225" key="GridCell.Tab.0.bottom" timestamp="1609224898949">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1609224898949" />
+    <state width="1388" height="268" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1610499911600" />
     <state width="1388" height="225" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1608527607522" />
-    <state width="1388" height="225" key="GridCell.Tab.0.center" timestamp="1609224898948">
+    <state width="1388" height="268" key="GridCell.Tab.0.center" timestamp="1610499911599">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1609224898948" />
+    <state width="1388" height="268" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1610499911599" />
     <state width="1388" height="225" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1608527607522" />
-    <state width="1388" height="225" key="GridCell.Tab.0.left" timestamp="1609224898948">
+    <state width="1388" height="268" key="GridCell.Tab.0.left" timestamp="1610499911599">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1609224898948" />
+    <state width="1388" height="268" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1610499911599" />
     <state width="1388" height="225" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1608527607521" />
-    <state width="1388" height="225" key="GridCell.Tab.0.right" timestamp="1609224898949">
+    <state width="1388" height="268" key="GridCell.Tab.0.right" timestamp="1610499911599">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="225" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1609224898949" />
+    <state width="1388" height="268" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1610499911599" />
     <state width="1388" height="225" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1608527607522" />
-    <state width="1388" height="268" key="GridCell.Tab.1.bottom" timestamp="1609224898946">
+    <state width="1388" height="268" key="GridCell.Tab.1.bottom" timestamp="1610499911601">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="268" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1609224898946" />
-    <state width="1388" height="268" key="GridCell.Tab.1.center" timestamp="1609224898946">
+    <state width="1388" height="268" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1610499911601" />
+    <state width="1388" height="268" key="GridCell.Tab.1.center" timestamp="1610499911600">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="268" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1609224898946" />
-    <state width="1388" height="268" key="GridCell.Tab.1.left" timestamp="1609224898945">
+    <state width="1388" height="268" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1610499911600" />
+    <state width="1388" height="268" key="GridCell.Tab.1.left" timestamp="1610499911600">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="268" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1609224898945" />
-    <state width="1388" height="268" key="GridCell.Tab.1.right" timestamp="1609224898946">
+    <state width="1388" height="268" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1610499911600" />
+    <state width="1388" height="268" key="GridCell.Tab.1.right" timestamp="1610499911600">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="268" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1609224898946" />
-    <state x="256" y="104" key="RollbackChangesDialog" timestamp="1601350100166">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="256" y="104" key="RollbackChangesDialog/0.23.1440.830@0.23.1440.830" timestamp="1601350100166" />
+    <state width="1388" height="268" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1610499911600" />
     <state x="100" y="123" width="1240" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608525811798">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="100" y="123" width="1240" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.832@0.23.1440.832" timestamp="1608525811798" />
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1609373532613">
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1610497485186">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1609373532613" />
+    <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1610497485186" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1608341575796" />
     <state x="316" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.833@0.23.1440.833" timestamp="1606791925563" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606797939122">
@@ -291,10 +238,10 @@
     </state>
     <state x="248" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831@0.23.1440.831" timestamp="1606357118562" />
     <state x="159" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.832@0.23.1440.832" timestamp="1606797939122" />
-    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1609395469502">
+    <state x="297" y="130" width="1033" height="701" key="find.popup" timestamp="1610497493172">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1609395469502" />
+    <state x="297" y="130" width="1033" height="701" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1610497493172" />
     <state x="297" y="130" width="1033" height="702" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1606358287028" />
     <state x="297" y="130" width="1033" height="703" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1608527596178" />
     <state x="301" y="23" width="838" height="830" key="search.everywhere.popup" timestamp="1609390753987">
@@ -340,6 +287,11 @@
           <url>file://$PROJECT_DIR$/src/backstracking_problem/Solution93.java</url>
           <line>26</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort_problem/MergeSort.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

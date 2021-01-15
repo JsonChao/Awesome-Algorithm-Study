@@ -1,9 +1,12 @@
 package sort_problem;
 
 /**
- * 归并排序的思想是将数组分成两部分，分别进行排序，然后归并起来。
+ * 思路：归并排序的思想是不断地将数组分成两部分，分别进行排序，然后归并起来，
+ * 归并就是将数组中两个已排序的部分归并成一个。归并排序是稳定性算法。
+ * 时间复杂度：O(NlogN)
+ * 空间复杂度：O(N)
  */
-public abstract class MergeSort<T extends Comparable<T>> extends Sort<T> {
+public class MergeSort<T extends Comparable<T>> extends Sort<T> {
 
     protected T[] aux;
 
@@ -33,8 +36,8 @@ public abstract class MergeSort<T extends Comparable<T>> extends Sort<T> {
     @Override
     public void sort(T[] nums) {
         // 1、自顶向下归并排序
-        // 将一个大数组分成两个小数组去求解。
-        // 因为每次都将问题对半分成两个子问题，这种对半分的算法复杂度一般为 O(NlogN)。
+        // 不断地将一个大数组分成两个小数组去求解。
+        // 因为每次都将问题对半分成两个子问题。
         aux = (T[]) new Comparable[nums.length];
         sort(nums, 0, nums.length - 1);
 
@@ -58,6 +61,11 @@ public abstract class MergeSort<T extends Comparable<T>> extends Sort<T> {
         sort(nums, l, mid);
         sort(nums, mid + 1, h);
         merge(nums, l, mid, h);
+    }
+
+    public static void main(String[] args) {
+        Integer[] nums = new Integer[]{3, 5, 1, 2, 4};
+        new MergeSort<Integer>().sort(nums);
     }
 
 }
