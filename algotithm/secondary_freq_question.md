@@ -2,7 +2,7 @@
 
 ```
 /**
- * 最长回文子串：注意要分奇偶情况分别讨论。
+ * 注意要分奇偶情况分别讨论。
  */
 public class Solution5 {
 
@@ -33,10 +33,8 @@ public class Solution5 {
 
 ```
 /**
- * 搜索旋转排序数组：先二分查找旋转点（迭代或者递推），
- * 再二分查找目标（递推）。二分查找可以用递归/循环，
- * 是很常见的写法。需注意分段和索引范围问题
- * （没有必要为了排除某个别索引把分段弄得特别严谨）。
+ * 先二分查找旋转点（迭代或者递推），再二分查找目标（递推）。二分查找可以用递归/循环，
+ * 是很常见的写法。需注意分段和索引范围问题（没有必要为了排除某个别索引把分段弄得特别严谨）。
  */
 public class Solution33 {
 
@@ -79,19 +77,6 @@ public class Solution33 {
 
 ```
 /**
- * 给定一个包含红色、白色和蓝色，一共 n 个元素的数组，原地对它们进行排序，使得相同颜色的元素相邻，并按照红色、白色、蓝色顺序排列。
- *
- * 此题中，我们使用整数 0、 1 和 2 分别表示红色、白色和蓝色。
- *
- * 注意:
- * 不能使用代码库中的排序函数来解决这道题。
- *
- * 示例:
- *
- * 输入: [2,0,2,1,1,0]
- * 输出: [0,0,1,1,2,2]
- * 进阶：
- *
  * 一个直观的解决方案是使用计数排序的两趟扫描算法。
  * 首先，迭代计算出0、1 和 2 元素的个数，然后按照0、1、2的排序，重写当前数组。
  * 你能想出一个仅使用常数空间的一趟扫描算法吗？
@@ -237,70 +222,6 @@ public int[] productExceptSelf(int[] nums) {
 ```
 /**
 * O(n)
-* O(n)
-*/
-public void moveZeroes(int[] nums) {
-
-    ArrayList<Integer> noZeroList = new ArrayList<>();
-
-    for (int i = 0; i < nums.length; i++) {
-        if (nums[i] != 0) {
-            noZeroList.add(nums[i]);
-        }
-    }
-
-    for (int i = 0; i < noZeroList.size(); i++) {
-        nums[i] = noZeroList.get(i);
-    }
-
-    for (int i = noZeroList.size(); i < nums.length; i++) {
-        nums[i] = 0;
-    }
-}
-
-/**
-* O(n)
-* O(1)
-*/
-public void moveZeroes(int[] nums) {
-
-    // [0，k)中的元素都用来保存原地的非零元素
-    int k = 0;
-
-    for (int i = 0; i < nums.length; i++) {
-        if (nums[i] != 0) {
-            nums[k++] = nums[i];
-        }
-    }
-
-    for (int i = k; i < nums.length; i++) {
-        nums[i] = 0;
-    }
-}
-
-/**
-* O(n)
-* O(1)
-*/
-public void moveZeroes(int[] nums) {
-
-    int k = 0;
-
-    for (int i = 0; i < nums.length; i++) {
-        if (nums[i] != 0) {
-            swap(nums, k++, i);
-        }
-    }
-}
-
-private void swap(int[] nums, int k, int i) {
-    int temp = nums[k];
-    nums[k] = nums[i];
-    nums[i] = temp;
-}
-
-/**
-* O(n)
 * O(1)
 */
 public void moveZeroes(int[] nums) {
@@ -329,19 +250,6 @@ private void swap(int[] nums, int k, int i) {
 
 ```
 /**
- * 编写一个函数，以字符串作为输入，反转该字符串中的元音字母。
- *
- * 示例 1:
- *
- * 输入: "hello"
- * 输出: "holle"
- * 示例 2:
- *
- * 输入: "leetcode"
- * 输出: "leotcede"
- * 说明:
- * 元音字母不包含字母"y"。
- *
  * （元音aeiou）
  */
 public class Solution345 {
@@ -380,10 +288,6 @@ public class Solution345 {
 
 ```
 /**
- * 438：
- *      1、字符集范围？英文小写字母。
- *      2、返回的解的顺序？任意。
- *
  * 找到字符串中所有字母异位词：【滑动窗口】。
  */
 public class Solution438 {
@@ -502,47 +406,17 @@ public class Solution695 {
 
 ```
 /**
- * 图：无权图的最短路径。279
- *      1、建模成图论问题：从n到0，每个数字表示一个节点，
- *      如果两个数字x到y相差一个完全平方数，则连接一条边。
- *      我们得到了一个无权图。原问题转换为，求这个无权图中
- *      从n到0的最短路径。
+ * 图：无权图的最短路径。
+ * 1、建模成图论问题：从n到0，每个数字表示一个节点，如果两个数字x到y相差一个完全平方数，则连接一条边。
+ * 我们得到了一个无权图。原问题转换为，求这个无权图中从n到0的最短路径。
  *
- * 暴力求解
+ * 1、暴力求解
  * O(2^n）
  * O(2^n)
+ * 2、使用 visited 数组，记录每一个入队元素
+ * O(n)
+ * O(n)
  */
-public class Solution279 {
-
-    public int numSquares(int n) {
-
-       LinkedList<Pair<Integer, Integer>> queue = new LinkedList<Pair<Integer, Integer>>();
-       queue.addLast(new Pair<>(n, 0));
-       while (!queue.isEmpty()) {
-           Pair<Integer, Integer> pair = queue.removeFirst();
-
-           int sum = pair.fst;
-           int step = pair.snd;
-
-           if (sum == 0) {
-               return step;
-           }
-
-           for (int i = 1; sum - i * i >= 0; i++) {
-               queue.addLast(new Pair<>(sum - i * i, step + 1));
-           }
-       }
-
-       throw new IllegalArgumentException("no this num squares!");
-    }
-
-}
-
-/**
-* 使用 visited 数组，记录每一个入队元素
-* O(n)
-* O(n)
-*/
 public int numSquares(int n) {
 
     if (n == 0) {
@@ -585,10 +459,8 @@ public int numSquares(int n) {
 
 ```
 /**
- * 2：
- *      1、数字之外是否有前置的0。（除0以外，没有前置0）
- *      2、负数（不是）。
- *
+ *  1、数字之外是否有前置的0。（除0以外，没有前置0）
+ *  2、负数（不是）。
  *  prev ListNode
  */
 public class Solution2 {
@@ -838,9 +710,8 @@ public int firstUniqChar(String s) {
 
 ```
 /**
-* 49：
-*      1、字符集
-*      2、大小写敏感
+* 1、字符集
+* 2、大小写敏感
 */
 public List<List<String>> groupAnagrams(String[] strs) {
     HashMap<String, List<String>> map=new HashMap<>();
@@ -861,10 +732,9 @@ public List<List<String>> groupAnagrams(String[] strs) {
 
 ```
 /**
- * 205：
- *      1、字符集
- *      2、空串
- *      3、一个字符是否可以映射到自己
+ * 1、字符集
+ * 2、空串
+ * 3、一个字符是否可以映射到自己
  *
  * 记录一个字符上次出现的位置，如果两个字符串中的字符上次出现的位置一样，那么就属于同构。
  */
@@ -1006,7 +876,6 @@ public class Solution220 {
  *      2、字符集
  *
  * 可以用 HashMap 来映射字符与出现次数，然后比较两个字符串出现的字符数量是否相同。
- *
  * 由于本题的字符串只包含 26 个小写字符，因此可以使用长度为 26 的整型数组
  * 对字符串出现的字符进行统计，不再使用 HashMap。
  */
@@ -1055,37 +924,6 @@ public class Solution242 {
  *       5、选择某个排位的元素 select。
  * C++ 中 map 和 set 的底层实现为平衡二叉树，unordered_map 和 unordered_set 的底层实现为哈希表。
  *
- * O(nlogn)
- * O(n)
- */
-public class Solution349 {
-
-    public int[] intersection(int[] nums1, int[] nums2) {
-
-        TreeSet<Integer> record = new TreeSet<>();
-        for(Integer item:nums1) {
-            record.add(item);
-        }
-
-        TreeSet<Integer> resultSet = new TreeSet<>();
-        for (Integer item:nums2) {
-            if (record.contains(item)) {
-                resultSet.add(item);
-            }
-        }
-
-        int[] res = new int[resultSet.size()];
-        int i = 0;
-        for(Integer item:resultSet) {
-            res[i++] = item;
-        }
-
-        return res;
-    }
-
-}
-
-/**
  * O(len(nums1) + len(nums2))
  * O(len(nums1))
  */
@@ -1120,45 +958,6 @@ public class Solution_349_2 {
 # 28、两个数组的交集 II  
 
 ```
-/**
- * 349（set）、350（map）：
- *      1、C++ 中 map find 不到元素时输出 0
- *
- * O(nlogn)
- * O(n)
- */
-public class Solution350 {
-
-    public int[] intersect(int[] nums1, int[] nums2) {
-
-        TreeMap<Integer, Integer> record = new TreeMap<>();
-        for(Integer item:nums1) {
-            if (!record.containsKey(item)) {
-                record.put(item, 1);
-            } else {
-                record.put(item, record.get(item) + 1);
-            }
-        }
-
-        ArrayList<Integer> result = new ArrayList<>();
-        for(Integer item:nums2) {
-            if (record.containsKey(item) && record.get(item) > 0) {
-                result.add(item);
-                record.put(item, record.get(item) - 1);
-            }
-        }
-
-        int[] res = new int[result.size()];
-        int i = 0;
-        for(Integer item:result) {
-            res[i++] = item;
-        }
-
-        return res;
-    }
-
-}
-
 /**
  * O(len(nums1) + len(nums2))
  * O(len(nums1))
@@ -1200,9 +999,8 @@ public class Solution350_2 {
 
 ```
 /**
- * 447：
- *      1、枚举法（暴力法）：O(n^3)
- *      2、查找表，求距离的平方，避免浮点型运算（注意避免整形移除，当然，这个题不需要处理）：O(n^2)，空间 O(n)
+ * 1、枚举法（暴力法）：O(n^3)
+ *   2、查找表，求距离的平方，避免浮点型运算（注意避免整形移除，当然，这个题不需要处理）：O(n^2)，空间 O(n)
  *
  * O(n^2)
  * O(n)
@@ -1293,44 +1091,6 @@ public class Solution451 {
  *      2、将 D 中的元素放入查找表：O(n^3)
  *      3、将 C + D 的每一种可能放入查找表中：O(n^2)
  *
- * O(n^2)
- * O(n^2)
- */
-public class Solution454 {
-
-    public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
-
-        if (A == null || B == null || C == null || D == null) {
-            throw new IllegalArgumentException("array is null!");
-        }
-
-        HashMap<Integer, Integer> record = new HashMap<>();
-        for (int i = 0; i < C.length; i++) {
-            for (int j = 0; j < D.length; j++) {
-                int sum = C[i] + D[j];
-                if (record.containsKey(sum)) {
-                    record.put(sum, record.get(sum) + 1);
-                } else {
-                    record.put(sum, 1);
-                }
-            }
-        }
-
-        int res = 0;
-        for (int i = 0; i < A.length; i++) {
-            for (int j = 0; j < B.length; j++) {
-                if (record.containsKey(-(A[i] + B[j]))) {
-                    res += record.get(-(A[i] + B[j]));
-                }
-            }
-        }
-
-        return res;
-    }
-
-}
-
-/**
  * O(n^2)
  * O(n^2)
  */
@@ -1835,89 +1595,6 @@ public class Solution437 {
  *      2、Solution2：不使用虚拟头结点。
  *      3、Solution3：使用虚拟头结点。
  */
-class Solution {
-
-    public ListNode removeElements(ListNode head, int val) {
-
-        // 1、由于没有使用虚拟头结点，要删除的节点时头结点时需要特殊处理。
-        while (head != null && head.val == val) {
-            ListNode delNode = head;
-            head = head.next;
-            delNode = null;
-        }
-
-        // 2、如果 head 为 null，说明已经删除完毕，直接返回 null 即可。
-        if (head == null) {
-            return null;
-        }
-
-        // 3、从中间开始才有需要删除的节点。
-        // 重要细节：需要使用一个新变量记录待删除节点的前一个节点
-        ListNode pre = head;
-        while (pre.next != null) {
-            if (pre.next.val == val) {
-                ListNode delNode = pre.next;
-                pre.next = delNode.next;
-                delNode = null;
-            } else {
-                pre = pre.next;
-            }
-        }
-
-        return head;
-    }
-
-    public static void main(String[] args) {
-
-        int[] nums = {1, 2, 6, 3, 4, 5, 6};
-        ListNode head = new ListNode(nums);
-        System.out.println(head);
-
-        ListNode res = (new Solution()).removeElements(head, 6);
-        System.out.println(res);
-    }
-}
-
-/**
- * 不使用虚拟头结点
- */
-public class Solution2 {
-
-    public ListNode removeElements(ListNode head, int val) {
-
-        while (head != null && head.val == val) {
-//            ListNode delNode = head;
-//            head = head.next;
-//            delNode = null;
-            // 在 LeetCode不需要考虑用于内存释放的第一、三步
-            head = head.next;
-        }
-
-        if (head == null) {
-            return null;
-        }
-
-        ListNode pre = head;
-        while (pre.next != null) {
-            if (pre.next.val == val) {
-//                ListNode delNode = pre.next;
-//                pre.next = delNode.next;
-//                delNode = null;
-                // 在 LeetCode不需要考虑用于内存释放的第一、三步
-                pre.next = pre.next.next;
-            } else {
-                pre = pre.next;
-            }
-        }
-
-        return head;
-    }
-
-}
-
-/**
- * 使用虚拟头结点
- */
 public class Solution3 {
 
     public ListNode removeElements(ListNode head, int val) {
@@ -1941,6 +1618,9 @@ public class Solution3 {
 
 }
 
+/**
+* 递归
+**/
 public class Solution4 {
 
     public ListNode removeElements(ListNode head, int val) {
@@ -1954,45 +1634,6 @@ public class Solution4 {
     }
 
 }
-
-/**
- *  Leetcode 203: Remove Linked List Elements
- *      删除多个节点时使用 while 循环。
- *      1、Solution：注意内存释放 + 不使用虚拟头结点。
- *      2、Solution2：不使用虚拟头结点。
- *      3、Solution3：使用虚拟头结点。
- */
-class Solution {
-
-    public ListNode removeElements(ListNode head, int val) {
-
-        // 1、由于没有使用虚拟头结点，要删除的节点时头结点时需要特殊处理。
-        while (head != null && head.val == val) {
-            ListNode delNode = head;
-            head = head.next;
-            delNode = null;
-        }
-
-        // 2、如果 head 为 null，说明已经删除完毕，直接返回 null 即可。
-        if (head == null) {
-            return null;
-        }
-
-        // 3、从中间开始才有需要删除的节点。
-        // 重要细节：需要使用一个新变量记录待删除节点的前一个节点
-        ListNode pre = head;
-        while (pre.next != null) {
-            if (pre.next.val == val) {
-                ListNode delNode = pre.next;
-                pre.next = delNode.next;
-                delNode = null;
-            } else {
-                pre = pre.next;
-            }
-        }
-
-        return head;
-    }
 ```
 
 # 45、电话号码的字母组合  
@@ -2244,43 +1885,6 @@ public class Solution51 {
 ```
 /**
  * 组合问题
- * O(n^k)
- * O(k)
- */
-public class Solution77 {
-
-    private ArrayList<List<Integer>> res;
-
-    public List<List<Integer>> combine(int n, int k) {
-
-        res = new ArrayList<>();
-        if (n <= 0 || k <= 0 || n < k) {
-            return res;
-        }
-
-        LinkedList<Integer> c = new LinkedList<>();
-        generateCombination(n, k, 1, c);
-        return res;
-    }
-
-    private void generateCombination(int n, int k, int start, LinkedList<Integer> c) {
-
-        if (c.size() == k) {
-            res.add((List<Integer>) c.clone());
-            return;
-        }
-
-        for (int i = start; i <= n; i++) {
-            c.addLast(i);
-            generateCombination(n, k, i + 1, c);
-            c.removeLast();
-        }
-    }
-
-}
-
-/**
- * 组合问题
  *      1、回溯法解决组合问题的优化：剪枝，避免最后的重复运算。
  * O(n^k)
  * O(k)
@@ -2469,7 +2073,75 @@ public class Solution90 {
 # 53、复原IP地址
 
 ```
+/**
+ * 递归与回溯
+ *
+ * 题目描述：给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
+ * 有效的 IP 地址 正好由四个整数（每个整数位于 0 到 255 之间组成，且不能含有前导 0），
+ * 整数之间用 '.' 分隔。
+ *
+ * 时间复杂度：O(3 ^ SEG_COUNT * ∣s∣)
+ * 空间复杂度：O(SEG_COUNT)
+ */
+class Solution93 {
 
+    // 1、初始化分段数量 & 返回列表
+    static final int SEG_COUNT = 4;
+    List<String> ans = new ArrayList<>();
+    int[] segments;
+
+    public List<String> restoreIpAddresses(String s) {
+        // 2、初始化分段数组并进行深度优先遍历
+        segments = new int[SEG_COUNT];
+        dfs(s, 0, 0);
+        return ans;
+    }
+
+    public void dfs(String s, int segId, int segStart) {
+        // 1）、如果找到了 4 段 IP 地址并且遍历完了字符串，那么就是一种答案
+        if (segId == SEG_COUNT) {
+            if (segStart == s.length()) {
+                StringBuilder ipAddr = new StringBuilder();
+                for (int i = 0; i < SEG_COUNT; ++i) {
+                    ipAddr.append(segments[i]);
+                    if (i != SEG_COUNT - 1) {
+                        ipAddr.append('.');
+                    }
+                }
+                ans.add(ipAddr.toString());
+            }
+            return;
+        }
+
+        // 2）、如果还没有找到 4 段 IP 地址就已经遍历完了字符串，那么提前回溯
+        if (segStart == s.length()) {
+            return;
+        }
+
+        // 3）、异常处理：由于不能有前导零，如果当前数字为 0，那么这一段 IP 地址只能为 0
+        if (s.charAt(segStart) == '0') {
+            segments[segId] = 0;
+            dfs(s, segId + 1, segStart + 1);
+        }
+
+        // 4）、一般情况，枚举每一种可能性并递归
+        int addr = 0;
+        for (int segEnd = segStart; segEnd < s.length(); ++segEnd) {
+            addr = addr * 10 + (s.charAt(segEnd) - '0');
+            if (addr > 0 && addr <= 0xFF) {
+                segments[segId] = addr;
+                dfs(s, segId + 1, segEnd + 1);
+            } else {
+                // 当前情况不满足，直接break回到上一层
+                break;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Solution93().restoreIpAddresses("25525511135"));
+    }
+}
 ```
 
 # 54、被围绕的区域  
@@ -2694,10 +2366,7 @@ class Solution53 {
 
 ```
 /**
- * 不同路径：要么【用数学递推公式】，
- *
- * 要么就根据定义【直接计算】。直接计算时需要注意
- *
+ * 不同路径：要么【用数学递推公式】，X要么就根据定义【直接计算】。直接计算时需要注意
  * Java “/”的整除性质，溢出，乘除顺序。
  */
 public class Solution62 {
@@ -2760,9 +2429,7 @@ public class Solution64 {
 
 ```
 /**
- * 动态规划给出具体解
- *      反向求出具体的解，甚至是所有的解。
- * 编辑距离 72
+ * 动态规划给出具体解：反向求出具体的解，甚至是所有的解。
  */
 public class Solution72 {
 
@@ -3225,60 +2892,6 @@ public class Solution376 {
  *      3、时间复杂度：O(n*sum/2) = O(n*sum)
  *      4、空间复杂度：O(n * sum)
  */
-public class Solution416 {
-
-    private int[][] memo;
-
-    public boolean canPartition(int[] nums) {
-        
-        // 1、判断 nums 数组的和是否为偶数
-        int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] <= 0) {
-                throw new IllegalArgumentException("illegal argument!");
-            }
-            sum += nums[i];
-        }
-        
-        if (sum % 2 == 1) {
-            return false;
-        }
-
-        // 2、创建 memo[i][C] 记忆化数组并初始化：-1 未计算 0 不能填充 1 可以填充
-        memo = new int[nums.length][sum / 2 + 1];
-        for (int i = 0; i < nums.length; i++) {
-            Arrays.fill(memo[i], -1);
-        }
-        return tryPartition(nums, nums.length - 1, sum / 2);
-    }
-
-    // 3、判断在 [0...index] 的数组范围中是否可以填充满 sum
-    private boolean tryPartition(int[] nums, int index, int sum) {
-
-        if (sum == 0) {
-            return true;
-        }
-
-        if (index < 0 || sum < 0) {
-            return false;
-        }
-
-        if (memo[index][sum] != -1) {
-            return memo[index][sum] == 1;
-        }
-
-        memo[index][sum] = (tryPartition(nums, index - 1, sum) ||
-                tryPartition(nums, index - 1, sum - nums[index])) ? 1 : 0;
-
-        return memo[index][sum] == 1;
-    }
-
-}
-
-/**
- * O(n * sum)
- * O(n * sum)
- */
 public class Solution416_2 {
 
     public boolean canPartition(int[] nums) {
@@ -3363,6 +2976,9 @@ public class Solution494 {
 
 }
 
+/**
+* 递归
+**/
 public class Solution494_2 {
 
     public int findTargetSumWays(int[] nums, int S) {
@@ -3440,60 +3056,7 @@ public class Solution392 {
  *      ——设计出贪心算法：按照区间的结尾排序，每次选择结尾最早的，且和前一个区间不重叠的区间。
  *      5、贪心选择性质的证明：1）、举出反例。2）、反证法：贪心算法为A，最优算法为O，发现A完全能替代O，
  *      且不影响求出最优解。
- * 0(n ^ 2)
- * O(n)
- */
-public class Solution435 {
-
-    // Definition for an interval.
-    public static class Interval {
-        int start;
-        int end;
-        Interval() { start = 0; end = 0; }
-        Interval(int s, int e) { start = s; end = e; }
-    }
-
-    public int eraseOverlapIntervals(Interval[] intervals) {
-
-        if (intervals.length == 0) {
-            return 0;
-        }
-
-        // 1、排序
-        Arrays.sort(intervals, new Comparator<Interval>() {
-            @Override
-            public int compare(Interval o1, Interval o2) {
-                if (o1.start != o2.start) {
-                    return o1.start - o2.start;
-                }
-                return o1.end - o2.end;
-            }
-        });
-
-        // 2、使用 memo[i] 统计以 intervals[i] 为结尾的区间数组的最长不重叠子序列的长度
-        int[] memo = new int[intervals.length];
-        Arrays.fill(memo, 1);
-        for (int i = 1; i < intervals.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if (intervals[i].start >= intervals[j].end) {
-                    memo[i] = Math.max(memo[i], 1 + memo[j]);
-                }
-            }
-        }
-
-        // 3、得到 memo[0...i] 范围中最大的最长不重叠子序列的长度
-        int res = 1;
-        for (int i = 0; i < intervals.length; i++) {
-            res = Math.max(res, memo[i]);
-        }
-
-        return intervals.length - res;
-    }
-
-}
-
-/**
- * 设计贪心算法：按照区间的结尾排序，每次选择区间结尾最早的，且和前一个区间不重叠额的区间
+ * 设计贪心算法：按照区间的结尾排序，每次选择区间结尾最早的，且和前一个区间不重叠额的区间。
  * O(n)
  * O(n)
  */
