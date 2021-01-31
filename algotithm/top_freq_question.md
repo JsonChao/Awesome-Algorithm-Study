@@ -4330,5 +4330,144 @@ public class Solution42 {
 }
 ```
 
+## 52、两个数组的交集 II
 
+数组交集，编写一个函数，输入两个数组，输出它们的交集。输出数组中不含重复的元素，元素排列顺序可随意。
+1、哈希表：由于同一个数字在两个数组中都可能出现多次，因此需要用哈希表存储每个数字出现的次数。对于一个数字，其在交集中出现的次数等于该数字在两个数组中出现次数的最小值。
+首先遍历第一个数组，并在哈希表中记录第一个数组中的每个数字以及对应出现的次数，然后遍历第二个数组，对于第二个数组中的每个数字，如果在哈希表中存在这个数字，则将该数字添加到答案，并减少哈希表中该数字出现的次数。
+为了降低空间复杂度，首先遍历较短的数组并在哈希表中记录每个数字以及对应出现的次数，然后遍历较长的数组得到交集。
+时间复杂度：O(m+n)，空间复杂度：O(min(m,n))，其中 mm 和 nn 分别是两个数组的长度。
+2、排序 + 双指针：首先对两个数组进行排序，然后使用两个指针遍历两个数组。
+初始时，两个指针分别指向两个数组的头部。每次比较两个指针指向的两个数组中的数字，如果两个数字不相等，则将指向较小数字的指针右移一位，如果两个数字相等，将该数字添加到答案，并将两个指针都右移一位。当至少有一个指针超出数组范围时，遍历结束。
+时间复杂度：O(mlogm+nlogn)，O(min(m,n))。
+
+```
+class Solution {
+    public int[] intersect(int[] nums1, int[] nums2) {
+        if (nums1.length > nums2.length) {
+            return intersect(nums2, nums1);
+        }
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int num : nums1) {
+            int count = map.getOrDefault(num, 0) + 1;
+            map.put(num, count);
+        }
+        int[] intersection = new int[nums1.length];
+        int index = 0;
+        for (int num : nums2) {
+            int count = map.getOrDefault(num, 0);
+            if (count > 0) {
+                intersection[index++] = num;
+                count--;
+                if (count > 0) {
+                    map.put(num, count);
+                } else {
+                    map.remove(num);
+                }
+            }
+        }
+        return Arrays.copyOfRange(intersection, 0, index);
+    }
+    
+    public int[] intersect(int[] nums1, int[] nums2) {
+            Arrays.sort(nums1);
+            Arrays.sort(nums2);
+            int length1 = nums1.length, length2 = nums2.length;
+            int[] intersection = new int[Math.min(length1, length2)];
+            int index1 = 0, index2 = 0, index = 0;
+            while (index1 < length1 && index2 < length2) {
+                if (nums1[index1] < nums2[index2]) {
+                    index1++;
+                } else if (nums1[index1] > nums2[index2]) {
+                    index2++;
+                } else {
+                    intersection[index] = nums1[index1];
+                    index1++;
+                    index2++;
+                    index++;
+                }
+            }
+            return Arrays.copyOfRange(intersection, 0, index);
+        }
+}
+```
+
+## 53、二叉搜索树迭代器
+
+二叉树的搜索，输入一个普通二叉树的根节点，实现一个调度器，调用调度器的next()方法，将返回二叉树中下一个最小的数；调用迭代器的hasNext()方法，将返回是否存在下一个数。二叉树节点是整数，无序。
+1、二叉搜索树的一个重要的特性是是二叉搜索树的中序序列是升序序列；因此，中序遍历是该解决方案的核心。使用自定义的栈来模拟中序遍历，采用迭代的方式来模拟中序遍历，而不是采用递归的方法；这样做的过程中，我们能够轻松的实现这两个函数的调用，而不是用其他额外的空间。
+时间复杂度：
+hasNext()：若栈中还有元素，则返回 true，反之返回 false。所以这是一个 O(1)O(1) 的操作。
+next()：包含了两个主要步骤。一个是从栈中弹出一个元素，它是下一个最小的元素。这是一个 O(1)的操作。然而，随后我们要调用帮助函数 _inorder_left ，它需要递归的，将左节点添加到栈上，是线性时间的操作，最坏的情况下为 O(N)。但是我们只对含有右节点的节点进行调用，它也不会总是处理 N 个节点。只有当我们有一个倾斜的树，才会有 N 个节点。因此该操作的平均时间复杂度仍然是 O(1)，符合问题中所要求的。
+空间复杂度：O(h)，使用了一个栈来模拟递归。
+
+```
+class BSTIterator {
+
+    Stack<TreeNode> stack;
+
+    public BSTIterator(TreeNode root) {
+        this.stack = new Stack<TreeNode>();
+        this._leftmostInorder(root);
+    }
+
+    private void _leftmostInorder(TreeNode root) {
+        while (root != null) {
+            this.stack.push(root);
+            root = root.left;
+        }
+    }
+
+    public int next() {
+        TreeNode topmostNode = this.stack.pop();
+        if (topmostNode.right != null) {
+            this._leftmostInorder(topmostNode.right);
+        }
+        return topmostNode.val;
+    }
+
+    public boolean hasNext() {
+        return this.stack.size() > 0;
+    }
+}
+```
+
+## 54、有效三角形的个数
+
+三角形个数，输入一个非负整数的数组，如果将数组元素选作三角形的边长，编写一个函数，输出这个数组可构成的三角形数量。
+判断三条边能组成三角形的条件为：
+任意两边之和大于第三边，任意两边之差小于第三边。
+三条边长从小到大为 a、b、c，当且仅当 a + b > c 这三条边能组成三角形。
+1、  暴力：三重循环枚举。时间复杂度为 O(n^3)，可能会超时。
+2、二分查找：首先对数组排序。
+固定最短的两条边，二分查找最后一个小于两边之和的位置。可以求得固定两条边长之和满足条件的结果。枚举结束后，总和就是答案。
+时间复杂度为 O(n^2logn)。
+3、双指针：首先对数组排序。
+固定最长的一条边，运用双指针扫描
+如果 nums[l] + nums[r] > nums[i]，同时说明 nums[l + 1] + nums[r] > nums[i], ..., nums[r - 1] + nums[r] > nums[i]，满足的条件的有 r - l 种，r 左移进入下一轮。
+如果 nums[l] + nums[r] <= nums[i]，l 右移进入下一轮。
+枚举结束后，总和就是答案。
+时间复杂度为 O(n^2)。
+
+```
+class Solution {
+    public int triangleNumber(int[] nums) {
+        Arrays.sort(nums);
+        int n = nums.length;
+        int res = 0;
+        for (int i = n - 1; i >= 2; --i) {
+            int l = 0, r = i - 1;
+            while (l < r) {
+                if (nums[l] + nums[r] > nums[i]) {
+                    res += r - l;
+                    --r;
+                } else {
+                    ++l;
+                }
+            }
+        }
+        return res;
+    }
+}
+```
 
