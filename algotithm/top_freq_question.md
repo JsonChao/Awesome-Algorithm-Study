@@ -4471,3 +4471,54 @@ class Solution {
 }
 ```
 
+## 55、山脉数组中查找目标值
+
+给你一个 山脉数组 mountainArr，请你返回能够使得 mountainArr.get(index) 等于 target 最小 的下标 index 值，如果不存在这样的下标 index，就请返回 -1。
+    
+1、二分查找
+        
+山脉数组在峰值左边是一个单调递增序列，而在峰值右边是一个单调递减序列，因此我们可以先使用二分法找到峰值：对于一个范围 [i, j]，我们可以先找到范围 [i, j] 中间连续的两个点 mid 与 mid + 1。如果 mountainArr.get(mid + 1) > mountainArr.get(mid)，那么可以知道峰值在范围 [mid + 1, j] 内；如果 mountainArr.get(mid + 1) < mountainArr.get(mid)，那么可以知道峰值在范围 [i, mid] 内。通过这样的方法，我们可以在 O(logn) 的时间内找到峰值所处的下标。
+在峰值左边使用二分法寻找目标值，如果峰值左边没有目标值，那么使用二分法在峰值右边寻找目标值。
+时间复杂度：O(logn)，我们进行了三次二分搜索，每次的时间复杂度都为 O(logn)。
+空间复杂度：O(1)，只需要常数的空间存放若干变量。
+    
+```
+class Solution {
+    public int findInMountainArray(int target, MountainArray mountainArr) {
+        int l = 0, r = mountainArr.length() - 1;
+        while (l < r) {
+            int mid = (l + r) / 2;
+            if (mountainArr.get(mid) < mountainArr.get(mid + 1)) {
+                l = mid + 1;
+            } else {
+                r = mid;
+            }
+        }
+        int peak = l;
+        int index = binarySearch(mountainArr, target, 0, peak, true);
+        if (index != -1) {
+            return index;
+        }
+        return binarySearch(mountainArr, target, peak + 1, mountainArr.length() - 1, false);
+    }
+
+    public int binarySearch(MountainArray mountainArr, int target, int l, int r, boolean flag) {
+        if (!flag) {
+            target *= -1;
+        }
+        while (l <= r) {
+            int mid = (l + r) / 2;
+            int cur = mountainArr.get(mid) * (flag ? 1 : -1);
+            if (cur == target) {
+                return mid;
+            } else if (cur < target) {
+                l = mid + 1;
+            } else {
+                r = mid - 1;
+            }
+        }
+        return -1;
+    }
+}
+```
+
