@@ -4522,3 +4522,43 @@ class Solution {
 }
 ```
 
+56、循环有序数组二分查找
+
+一个有序的数组，从开始到中间截取一段数组放到数组的尾部，这个数组会变成循环有序的数组，在这个循环有序的数组中进行二分查找。
+例如   1，2，3，4，5，6，7，8，9    截取前4位放到尾部会变成5，6，7，8，9，1，2，3，4 变成循环有序的数组。
+
+思路：采用二分查找的方式，获取中间的一个数组，然后看一下转折点在中间数的左边还是右边，如果最左边的数小于中间数，则转折点在右边，如果最左边的数大于中间数，则转折点在左边。
+
+```
+public static int find(int[] A, int n, int target){
+    if(n<=0)
+        return -1;
+    int left = 0, right = n-1;
+    while(left<=right)
+    {
+        int mid = left + ((right-left)/2);
+        if(A[mid] == target){
+            return mid;
+        }
+        //转折点在右半边
+        if(A[left] <= A[mid])
+        {
+            if(A[left] <= target && target < A[mid]){
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        else //转折点在左半边
+        {
+            if(A[mid] < target && target <= A[right]){
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+    }
+    return -1;
+}
+```
+
